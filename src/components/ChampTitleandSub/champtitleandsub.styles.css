@@ -1,0 +1,34 @@
+.name-n-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-n-title h1 {
+    margin-bottom: -5px;
+}
+
+.name-n-title h3 {
+    font-size: medium;
+}
+
+@media screen and (min-width: 768px) {
+    .name-n-title h1 {
+        font-size: 64px;
+        margin-bottom: -15px;
+    }
+
+    .name-n-title h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .name-n-title h1 {
+        font-size: 96px;
+        margin-bottom: -25px;
+    }
+
+    .name-n-title h3 {
+        font-size: 32px;
+    }
+}
