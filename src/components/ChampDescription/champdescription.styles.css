@@ -1,0 +1,11 @@
+.champ-description-div {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.champ-description {
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 2%;
+}
