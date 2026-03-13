@@ -30,7 +30,7 @@ button.active img {
   overflow: hidden;
   opacity: 0;
   transition:
-    max-height 0.5s ease-in-out,
+    max-height 0.3s ease-in-out,
     opacity 0.3s ease;
 }
 
@@ -95,5 +95,40 @@ button.active img {
 
   .champ-tip-list-track.enemy {
     transform: translateX(-50%);
+  }
+
+  .champ-tips-list li {
+    font-size: 16px;
+  }
+
+  .champ-tips-list li img {
+    width: 16px;
+    margin-right: 3px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  button h2 {
+    font-size: 40px;
+  }
+
+  .champ-tips-list li {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  button h2 {
+    font-size: 64px;
+  }
+
+  .champ-tips-list ul {
+    gap: 20px;
+  }
+
+  .champ-tips-list li {
+    font-size: 24px;
+    line-height: 35px;
   }
 }

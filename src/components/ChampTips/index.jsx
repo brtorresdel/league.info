@@ -8,23 +8,15 @@ export function ChampTips({allyTips, enemyTips}) {
     const [enemyTipsView, setEnemyTipsView] = useState('');
 
     const toggleAllyTips = () => {
-        if (!allyTipsView) {
-            setAllyTipsView('active');
-        } else {
-            setAllyTipsView('');
-        };
+        !allyTipsView && setAllyTipsView('active');
 
-        if (enemyTipsView) setEnemyTipsView('');
+        enemyTipsView && setEnemyTipsView('');
     };
 
     const toggleEnemyTips = () => {
-        if (!enemyTipsView) {
-            setEnemyTipsView('active');
-        } else {
-            setEnemyTipsView('');
-        };
+        !enemyTipsView && setEnemyTipsView('active');
 
-        if (allyTipsView) setAllyTipsView('');
+        allyTipsView && setAllyTipsView('');
     };
 
     return (
