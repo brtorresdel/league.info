@@ -16,56 +16,6 @@
     display: none;
 }
 
-.champ-tips button img {
-  transition: transform 0.2s ease-in-out;
-  transform: rotate(0deg);
-}
-
-.champ-tips.active button img {
-  transform: rotate(180deg);
-}
-
-.champ-tips .champ-tips-list {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition:
-    max-height 0.5s ease-in-out,
-    opacity 0.3s ease;
-}
-
-.champ-tips.active .champ-tips-list {
-  max-height: 500px;
-  opacity: 1;
-}
-
-.champ-tips-list ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.champ-tips-list li {
-  font-size: 13px;
-}
-
-.champ-tips-list li img {
-  width: 13px;
-  margin-right: 2px;
-}
-
-.champ-tips-list li img.ally {
-  filter: invert(59%) sepia(35%) saturate(941%) hue-rotate(82deg)
-    brightness(95%) contrast(92%);
-}
-
-.champ-tips-list li img.enemy {
-  filter: invert(88%) sepia(58%) saturate(5758%) hue-rotate(345deg)
-    brightness(97%) contrast(102%);
-}
-
 @media screen and (min-width: 768px) {
     .champ-tips-mobile {
         display: none;

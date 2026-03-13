@@ -49,6 +49,8 @@ export function ChampTips({allyTips, enemyTips}) {
             </section>
             <section className="champ-tips-tabletDesktop">
 
+                
+
             </section>
         </div>
     )

@@ -2,16 +2,16 @@ import './commons.styles.css';
 
 function ChampTipsBtn({toggle, title, arrow, active}) {
     return (
-        <button className={active && "active"}onClick={toggle}>
+        <button className={active && "active"} onClick={toggle}>
             <h2>{title}</h2>
             {arrow && <img src="./src/assets/icons/arrow.svg" />}
         </button>
     )
 }
 
-function ChampsTipsList ({list, icon, type}) {
+function ChampsTipsList ({list, icon, type, active}) {
     return (
-        <div className="champ-tips-list">
+        <div className={`champ-tips-list ${active && "active"}`}>
             <ul>
                 {list.map(tip => {
                     return <li>
