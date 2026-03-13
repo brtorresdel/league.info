@@ -1,0 +1,19 @@
+.champ-habilities-div {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.champ-habilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.habilities-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
