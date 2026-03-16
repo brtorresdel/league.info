@@ -22,7 +22,6 @@
     width: 100%;
 }
 
-
 .habilities-icons {
     width: 100%;
     display: flex;
@@ -71,7 +70,7 @@
     .habilities-data{
         flex-direction: row;
         align-items: flex-start;
-        height: 250px;
+        height: auto;
         gap: 10px;
     }
 
@@ -101,5 +100,48 @@
     .hability-info .hability-description {
         font-size: 13px;
         line-height: 20px;
+        height: 120px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .champ-habilities h2 {
+        font-size: 40px;
+    }
+
+    .habilities-data{
+        justify-content: space-between;
+        height: auto;
+        gap: 20px;
+    }
+
+    .hability-data-div {
+        width: 304px;
+    }
+
+    .hability-info {
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .hability-info .hability-title {
+        font-size: 24px;
+    }
+
+    .hability-info .hability-video.mobile {
+        display: none;
+    }
+
+    .hability-video.tablet-desktop {
+        display: block;
+        width: 55%;
+        border-radius: 5px;
+    }
+
+    .hability-info .hability-description {
+        font-size: 16px;
+        line-height: 25px;
+        height: 180px;
     }
 }
