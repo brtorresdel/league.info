@@ -1,0 +1,144 @@
+.champ-habilities-div {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.champ-habilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.habilities-data{
+    display: flex;
+    flex-direction: column;
+}
+
+.habilities-data-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.habilities-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.hability-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hability-info .hability-title {
+    font-size: 15px;
+}
+
+.hability-info .hability-description {
+    font-size: 13px;
+    height: 100px;
+    overflow: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+    .champ-habilities h2 {
+        font-size: 32px;
+    }
+
+    .habilities-icons {
+        margin-bottom: 20px;
+    }
+
+    .habilities-data{
+        flex-direction: row;
+        align-items: flex-start;
+        height: auto;
+        gap: 10px;
+    }
+
+    .hability-data-div {
+        width: 228px;
+    }
+
+    .hability-info {
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .hability-info .hability-title {
+        font-size: 20px;
+    }
+
+    .hability-info .hability-description {
+        font-size: 13px;
+        line-height: 20px;
+        height: 120px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .champ-habilities h2 {
+        font-size: 40px;
+    }
+
+    .habilities-data{
+        justify-content: space-between;
+        height: auto;
+        gap: 20px;
+    }
+
+    .hability-data-div {
+        width: 304px;
+    }
+
+    .hability-info {
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .hability-info .hability-description {
+        font-size: 16px;
+        line-height: 25px;
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .champ-habilities h2 {
+        font-size: 64px;
+    }
+
+    .habilities-data{
+        justify-content: space-between;
+        height: auto;
+        gap: 20px;
+    }
+
+    .hability-data-div {
+        width: 433px;
+    }
+
+    .hability-info {
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .hability-info .hability-title {
+        font-size: 36px;
+    }
+
+    .hability-info .hability-description {
+        font-size: 24px;
+        line-height: 35px;
+        height: 245px;
+    }
+}
