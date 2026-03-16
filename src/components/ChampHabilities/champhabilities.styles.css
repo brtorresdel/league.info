@@ -40,17 +40,6 @@
     font-size: 15px;
 }
 
-.hability-info .hability-video.mobile {
-    width: 100%;
-    height: 185px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-
-.hability-video.tablet-desktop {
-    display: none;
-}
-
 .hability-info .hability-description {
     font-size: 13px;
     height: 100px;
@@ -87,16 +76,6 @@
         font-size: 20px;
     }
 
-    .hability-info .hability-video.mobile {
-        display: none;
-    }
-
-    .hability-video.tablet-desktop {
-        display: block;
-        width: 55%;
-        border-radius: 5px;
-    }
-
     .hability-info .hability-description {
         font-size: 13px;
         line-height: 20px;
@@ -123,20 +102,6 @@
     .hability-info {
         align-items: flex-start;
         gap: 5px;
-    }
-
-    .hability-info .hability-title {
-        font-size: 24px;
-    }
-
-    .hability-info .hability-video.mobile {
-        display: none;
-    }
-
-    .hability-video.tablet-desktop {
-        display: block;
-        width: 55%;
-        border-radius: 5px;
     }
 
     .hability-info .hability-description {
@@ -169,16 +134,6 @@
 
     .hability-info .hability-title {
         font-size: 36px;
-    }
-
-    .hability-info .hability-video.mobile {
-        display: none;
-    }
-
-    .hability-video.tablet-desktop {
-        display: block;
-        width: 55%;
-        border-radius: 10px;
     }
 
     .hability-info .hability-description {

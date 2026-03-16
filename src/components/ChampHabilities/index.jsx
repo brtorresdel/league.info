@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { HabilityIcon } from "../HabilityIcon";
 import "./champhabilities.styles.css";
+import { HabilityVideo } from "../HabilityVideo";
 
 export function ChampHabilities ({habilities}) {
     const [activeHability, setActiveHability] = useState(habilities[0]);
@@ -22,11 +23,11 @@ export function ChampHabilities ({habilities}) {
                         </div>
                         <div className="hability-info">
                             <h2 className="hability-title">{activeHability.name} ({activeHability.key})</h2>
-                            <video src={activeHability.video} className="hability-video mobile" autoPlay muted loop />
+                            <HabilityVideo src={activeHability.video} screen='mobile' />
                             <p className="hability-description">{activeHability.description}</p>
                         </div>
                     </div>
-                    <video src={activeHability.video} className="hability-video tablet-desktop" autoPlay muted loop />
+                    <HabilityVideo src={activeHability.video} screen='tablet-desktop' />
                 </div>
             </section>
         </div>
