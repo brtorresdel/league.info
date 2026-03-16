@@ -23,7 +23,7 @@
   transform: rotate(0deg);
 }
 
-.active-chefron img {
+.active-chefron img.arrow {
   transform: rotate(180deg);
 }
 

@@ -4,7 +4,7 @@ function ChampTipsBtn({toggle, title, arrow, active}) {
     return (
         <button className={`champ-tips-title ${active && "active-chefron"}`} onClick={toggle}>
             <h2>{title}</h2>
-            {arrow && <img src="./src/assets/icons/arrow.svg" />}
+            {arrow && <img src="./src/assets/icons/arrow.svg" className='arrow'/>}
         </button>
     )
 }
