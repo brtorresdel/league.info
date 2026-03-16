@@ -2,7 +2,7 @@ import './commons.styles.css';
 
 function ChampTipsBtn({toggle, title, arrow, active}) {
     return (
-        <button className={active && "active-chefron"} onClick={toggle}>
+        <button className={`champ-tips-title ${active && "active-chefron"}`} onClick={toggle}>
             <h2>{title}</h2>
             {arrow && <img src="./src/assets/icons/arrow.svg" />}
         </button>

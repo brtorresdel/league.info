@@ -1,27 +1,28 @@
-button {
+.champ-tips-title {
   text-decoration: none;
   background-color: transparent;
   display: flex;
   flex-direction: row;
   align-items: center;
   border: none;
+  width: 100%;
 }
 
-button h2 {
+.champ-tips-title h2 {
   color: var(--text-color);
   opacity: 0.5;
 }
 
-button.active-chefron h2 {
+.champ-tips-title.active-chefron h2 {
     opacity: 1;
 }
 
-button img {
+.champ-tips-title img {
   transition: transform 0.2s ease-in-out;
   transform: rotate(0deg);
 }
 
-button.active-chefron img {
+.active-chefron img {
   transform: rotate(180deg);
 }
 
@@ -67,7 +68,7 @@ button.active-chefron img {
 }
 
 @media screen and (min-width: 768px) {
-  button h2 {
+  .champ-tips-title h2 {
     font-size: 32px;
   }
 
@@ -108,7 +109,7 @@ button.active-chefron img {
 }
 
 @media screen and (min-width: 1024px) {
-  button h2 {
+  .champ-tips-title h2 {
     font-size: 40px;
   }
 
@@ -119,7 +120,7 @@ button.active-chefron img {
 }
 
 @media screen and (min-width: 1440px) {
-  button h2 {
+  .champ-tips-title h2 {
     font-size: 64px;
   }
 
