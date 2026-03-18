@@ -4,8 +4,8 @@
     background: transparent;
     border-radius: 4px;
     overflow: hidden;
-    opacity: 60%;
-    transition: all 0.1s ease-in;
+    opacity: 0.5;
+    transition: all 150ms ease-in;
 }
 
 .hability-btn img {
@@ -14,15 +14,21 @@
 }
 
 .hability-btn.active-btn {
-    transform: scale(1.1);
+    transform: scale(1.2);
     box-shadow: 0px 0px 6px 2px rgba(255,255,255,0.59);
-    opacity: 100%;
+    opacity: 1;
 }
 
 @media screen and (min-width: 1024px) {
     .hability-btn {
         width: 40px;
         height: 40px;
+    }
+
+    .hability-btn.active-btn {
+        transform: scale(1.3);
+        box-shadow: 0px 0px 7px 3px rgba(255,255,255,0.59);
+        opacity: 1;
     }
 }
 
