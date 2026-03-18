@@ -32,10 +32,11 @@
     width: 45%;
     overflow-y: scroll;
     overflow-x: hidden;
+    scrollbar-color: gray transparent;
 }
 
 .champ-skins-tablet-desktop .skins-names::-webkit-scrollbar-track {
-    background: transparent;
+    background: yellow;
 }
 
 .champ-skins-tablet-desktop .skins-names ul{
@@ -84,6 +85,22 @@
         border-radius: 20px;
     }
 
+    .champ-skins-tablet-desktop .skins-names li button{
+        font-size: 0.75em;
+    }
+
+    .champ-skins-tablet-desktop .skins-names li button.active{
+        opacity: 1;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .champ-skins-tablet-desktop {
+        height: 333px;
+        font-size: var(--text-font-size-desktop-plus);
+    }
+    
     .champ-skins-tablet-desktop .skins-names li button{
         font-size: 0.75em;
     }
