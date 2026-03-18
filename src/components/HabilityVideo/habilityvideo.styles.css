@@ -13,7 +13,9 @@
 
 .hability-video video {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -23,18 +25,16 @@
 
   .hability-video.tablet-desktop {
     display: block;
-    width: 298px;
-    height: 98%;
+    width: 60%;
+    height: 205px;
+    overflow: hidden;
     border-radius: 10px;
   }
 }
 
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 1024px) {
   .hability-video.tablet-desktop {
-    display: block;
-    width: 60%;
-    border-radius: 10px;
+    height: 271px;
   }
 }
 
