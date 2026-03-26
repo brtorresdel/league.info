@@ -5,7 +5,6 @@ export function HomeHero() {
 
     return (
         <div className="home-hero" style={{'backgroundImage': splashUrl}}>
-            Olá!
         </div>
     )
 }

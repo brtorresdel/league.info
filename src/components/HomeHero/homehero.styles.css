@@ -19,3 +19,38 @@
     pointer-events: none;
     z-index: 1;
 }
+
+@media screen and (min-width: 768px) {
+    .home-hero {
+        height: 488px;
+        background-size: 115%;
+        background-position: 60% 60%;
+    }
+
+    .home-hero::after {
+        height: 488px;
+        background: 
+            linear-gradient(to top, #111111 5%, rgba(1,1,1,0) 50%),
+            linear-gradient(45deg, #111111 10%, rgba(1,1,1,0) 50%);
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+    .home-hero {
+        height: 637px;
+    }
+
+    .home-hero::after {
+        height: 637px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .home-hero {
+        height: 862px;
+    }
+
+    .home-hero::after {
+        height: 862px;
+    }
+}
