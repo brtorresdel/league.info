@@ -25,10 +25,12 @@
     color: var(--text-color);
     font-family: var(--text-font);
     letter-spacing: 10%;
+    border: 1px solid transparent;
+    transition: border-color 0.1s ease-in;
 }
 
 .input-name:focus {
-    border: 1px solid var(--text-color);
+    border-color: var(--text-color);
 }
 
 .input-name::placeholder {
