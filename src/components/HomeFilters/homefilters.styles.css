@@ -54,7 +54,7 @@
 .class-filter-div h4 {
     font-family: var(--text-font);
     color: var(--text-color);
-    font-size: 14px;
+    font-size: var(--text-font-size-mobile);
     font-weight: 300;
     margin-right: 10px;
 }
@@ -83,7 +83,7 @@
     }
 
     .class-filter-div h4 {
-        font-size: 16px;
+        font-size: var(--text-font-size-tablet);
     }
 }
 
@@ -97,5 +97,15 @@
 
     .input-name::placeholder {
         font-size: 25px;
+    }
+
+    .class-filter-div h4 {
+        font-size: var(--text-font-size-desktop);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .class-filter-div h4 {
+        font-size: var(--text-font-size-desktop-plus);
     }
 }
