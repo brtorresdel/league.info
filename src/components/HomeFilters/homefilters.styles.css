@@ -23,20 +23,7 @@
     align-items: center;
 }
 
-.class-filter-div .selected-classes {
-    width: 85%;
-    height: 41px;
-    border-radius: 20px;
-    background-color: #202020;
-    color: var(--text-color);
-    font-family: var(--text-font);
-    letter-spacing: 10%;
-    border: 1px solid transparent;
-    transition: border-color 0.1s ease-in;
-} 
-
 .class-filter-div ul {
-    display: none;
     list-style: none;
 }
 

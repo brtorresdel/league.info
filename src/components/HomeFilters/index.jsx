@@ -1,3 +1,4 @@
+import { ClassesList } from '../ClassesList';
 import './homefilters.styles.css';
 
 export function HomeFilters ({nameFilter, setNameFilter, classFilter, setClassFilter}) {
@@ -10,16 +11,7 @@ export function HomeFilters ({nameFilter, setNameFilter, classFilter, setClassFi
                 <input type="text" name="nameSearch" className='input-name' placeholder='Encontre seu campeão...' />
                 <div className="class-filter-div">
                     <h4>Classes:</h4>
-                    <div className="selected-classes">
-                        
-                    </div>
-                    <ul>
-                        {
-                            champClasses.map(c => {
-                                return <li>{c}</li>
-                            })
-                        }
-                    </ul>
+                    <ClassesList champClasses={champClasses} />
                 </div>
             </div>
         </div>
