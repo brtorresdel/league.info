@@ -8,13 +8,17 @@ export function Home () {
     const [nameFilter, setNameFilter] = useState('');
     const [classFilter, setClassFilter] = useState([]);
     const [champions, setChampions] = useState([]);
-    const [limit, setLimit] = useState(10);
+    const [limit, setLimit] = useState(9);
     
     useEffect(() =>  {
 
         const getChampionsList = async () => {
-            const championsList = await LoLService.getChampionsList("pt_BR");
-            
+            if (!localStorage.getItem('championsList')) {
+                const championsList = await LoLService.getChampionsList("pt_BR");
+                localStorage.setItem('championsList', JSON.stringify(championsList));
+            }
+
+            const championsList = JSON.parse(localStorage.getItem('championsList'));
             setChampions(championsList);
         }
 
@@ -31,7 +35,7 @@ export function Home () {
             setNameFilter={setNameFilter}
             setClassFilter={setClassFilter}
             />
-            <HomeChampList champions={champions} />
+            <HomeChampList champions={champions} limit={limit} />
         </>
     )
 }
