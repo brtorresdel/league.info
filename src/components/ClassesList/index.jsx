@@ -29,7 +29,6 @@ export function ClassesList ({champClasses}) {
         } else {
             setSelectedClasses([...selectedClasses, c]);
         }
-        console.log(selectedClasses);
     }
 
     const toggleClassListExibition = (exib) => {
