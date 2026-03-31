@@ -1,4 +1,5 @@
 .home-champions-list {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     gap: 20px;
@@ -6,8 +7,7 @@
     width: 90%;
     margin: 0 auto;
     grid-auto-rows: 120px;
-    max-height: calc((127px * 3) + 20px);
-    overflow: hidden;
+    z-index: 1;
 }
 
 .champion-card {
@@ -17,7 +17,13 @@
     gap: 5px;
 }
 
-.champion-card img {
+.champion-container {
+    position: relative;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1;
+}
+
+.champion-container img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -31,4 +37,50 @@
     font-family: var(--text-font);
     color: var(--text-color);
     text-align: center;
+}
+
+.champion-content {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .home-champions-list {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        max-height: calc((127px * 4) + 20px);
+        gap: 40px;
+        grid-auto-rows: 150px;
+    }
+
+    .champion-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .champion-card h3 {
+        font-size: var(--text-font-size-desktop);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home-champions-list {
+        max-height: calc((170px * 5) + 20px);
+        gap: 30px;
+        grid-auto-rows: 190px;
+        width: 85%;
+    }
+
+    .champion-container img {
+        width: 100%;
+        height: 190px;
+    }
+
+    .champion-card h3 {
+        display: none;
+    }
+
+    .champion-container:hover {
+        transform: scale(1.8);
+        z-index: 100;
+        cursor: pointer; 
+    }
 }

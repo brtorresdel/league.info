@@ -34,7 +34,7 @@ export function Home () {
             setNameFilter={setNameFilter}
             setClassFilter={setClassFilter}
             />
-            <HomeChampList champions={champions} />
+            <HomeChampList championsList={champions} />
         </>
     )
 }
