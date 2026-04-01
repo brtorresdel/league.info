@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { HomeFilters } from "../../components/HomeFilters";
 import { HomeHero } from "../../components/HomeHero";
 import { HomeChampList } from "../../components/HomeChampList";
@@ -11,6 +11,7 @@ export function Home () {
     const [champions, setChampions] = useState([]);
     const [rows, setRows] = useState(4);
     const [limit, setLimit] = useState(9);
+
     
     useEffect(() =>  {
 
@@ -25,6 +26,7 @@ export function Home () {
     }, []);
 
     useEffect(() => {
+
         const updateLimit = () => {
             const width = window.innerWidth;
 
@@ -38,20 +40,17 @@ export function Home () {
                 setLimit(5 * rows);
             } else if ((width >= 421 && width <= 533) || (width >= 768 && width <= 843)) {
                 setLimit(4 * rows);
-             } else if (width <= 420) {
-                 setLimit(3 * rows);
-             }
-            
+            } else if (width <= 420) {
+                setLimit(3 * rows);
+            }
         }
 
         updateLimit();
         window.addEventListener('resize', updateLimit);
         return () => window.removeEventListener('resize', updateLimit);
-    }, []);
+    }, [rows, setRows]);
 
-    const handleLimitBtnClick = () => {
-        setLimit(prevLimit => prevLimit + 9);
-    };
+    const handleLimitBtnClick = () => setRows(rows + 4);
 
     return (
         <>
