@@ -9,6 +9,7 @@ export function Home () {
     const [nameFilter, setNameFilter] = useState('');
     const [classFilter, setClassFilter] = useState([]);
     const [champions, setChampions] = useState([]);
+    const [showLimitBtn, setShowLimitBtn] = useState(true);
     const [rows, setRows] = useState(4);
     const [limit, setLimit] = useState(9);
 
@@ -16,9 +17,13 @@ export function Home () {
     useEffect(() =>  {
 
         const getChampionsList = async () => {
-            const championsList = await LoLService.getChampionsList("pt_BR");
+            if (!localStorage.getItem('championsList')) {
+                const championsList = await LoLService.getChampionsList("pt_BR");
+                localStorage.setItem('championsList', JSON.stringify(championsList));
+            }
+
+            const championsList = JSON.parse(localStorage.getItem('championsList'));
             setChampions(championsList);
-            console.log(championsList);
         }
 
         getChampionsList();
@@ -49,8 +54,17 @@ export function Home () {
         window.addEventListener('resize', updateLimit);
         return () => window.removeEventListener('resize', updateLimit);
     }, [rows, setRows]);
+    
+    useEffect(() => {
+        if (limit >= champions.length) {
+            setShowLimitBtn(false);
+        } else {
+            setShowLimitBtn(true);
+        }
+    }, [limit, champions.length]);
 
     const handleLimitBtnClick = () => setRows(rows + 4);
+
 
     return (
         <>
@@ -62,7 +76,7 @@ export function Home () {
             setClassFilter={setClassFilter}
             />
             <HomeChampList championsList={champions} limit={limit} />
-            <HomeLimitController onClick={handleLimitBtnClick} />
+            <HomeLimitController onClick={handleLimitBtnClick} show={showLimitBtn} />
         </>
     )
 }
