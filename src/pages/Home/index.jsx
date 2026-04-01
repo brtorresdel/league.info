@@ -23,6 +23,10 @@ export function Home () {
 
     }, []);
 
+    const handleLimitBtnClick = () => {
+        setLimit(prevLimit => prevLimit + 9);
+    };
+
     return (
         <>
             <HomeHero />
@@ -33,7 +37,7 @@ export function Home () {
             setClassFilter={setClassFilter}
             />
             <HomeChampList championsList={champions} limit={limit} />
-            <HomeLimitController limit={limit} setLimit={setLimit} />
+            <HomeLimitController onClick={handleLimitBtnClick} />
         </>
     )
 }
