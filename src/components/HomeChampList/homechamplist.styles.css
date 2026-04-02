@@ -8,6 +8,7 @@
     margin: 0 auto;
     grid-auto-rows: 120px;
     z-index: 1;
+    min-height: 440px;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { use, useEffect, useState } from "react";
 import { HomeFilters } from "../../components/HomeFilters";
 import { HomeHero } from "../../components/HomeHero";
 import { HomeChampList } from "../../components/HomeChampList";
@@ -12,6 +12,7 @@ export function Home () {
     const [showLimitBtn, setShowLimitBtn] = useState(true);
     const [rows, setRows] = useState(4);
     const [limit, setLimit] = useState(9);
+    const [filteredChampions, setFilteredChampions] = useState([]);
 
     
     useEffect(() =>  {
@@ -56,12 +57,35 @@ export function Home () {
     }, [rows, setRows]);
     
     useEffect(() => {
-        if (limit >= champions.length) {
+        if (limit >= champions.length || filteredChampions.length <= limit) {
             setShowLimitBtn(false);
         } else {
             setShowLimitBtn(true);
         }
-    }, [limit, champions.length]);
+    }, [limit, champions.length, filteredChampions]);
+
+    useEffect(() => {
+        if (nameFilter !== '') {
+            const filtered = champions.filter(champ => champ.name.toLowerCase().includes(nameFilter.toLowerCase()));
+            setFilteredChampions(filtered);
+        } else {
+            setFilteredChampions(champions);
+        }
+    }, [nameFilter, champions]);
+
+    useEffect(() => {
+        console.log(classFilter);
+        if (classFilter.length > 0) {
+            const filtered = champions.filter(champ => {
+                const champClassesLowerCase = champ.classes.map(c => c.toLowerCase());
+                return classFilter.every(filter => champClassesLowerCase.includes(filter.toLowerCase()));
+            });
+            setFilteredChampions(filtered);
+        } else {
+            setFilteredChampions(champions);
+        }
+    }, [classFilter, champions]);
+
 
     const handleLimitBtnClick = () => setRows(rows + 4);
 
@@ -75,7 +99,7 @@ export function Home () {
             setNameFilter={setNameFilter}
             setClassFilter={setClassFilter}
             />
-            <HomeChampList championsList={champions} limit={limit} />
+            <HomeChampList championsList={filteredChampions} limit={limit} />
             <HomeLimitController onClick={handleLimitBtnClick} show={showLimitBtn} />
         </>
     )

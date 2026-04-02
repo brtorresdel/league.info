@@ -3,10 +3,15 @@ import './homechamplist.styles.css'
 import { ChampTitleandSub } from './../ChampTitleandSub/index';
 import { ClassIcon } from './../ClassIcon/index';
 import { HomeChampCard } from '../HomeChampCard';
+import { NotFoundElement } from '../NotFoundElement';
 
 export function HomeChampList ({championsList, limit}) {
-    if (!championsList || championsList.length === 0) {
+    if (!championsList) {
         return <Loading />;
+    }
+
+    if (championsList.length === 0) {
+        return <NotFoundElement message="Nenhum campeão encontrado" />;
     }
 
     return (
