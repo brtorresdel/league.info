@@ -57,12 +57,12 @@ export function Home () {
     }, [rows, setRows]);
     
     useEffect(() => {
-        if (limit >= champions.length) {
+        if (limit >= champions.length || filteredChampions.length <= limit) {
             setShowLimitBtn(false);
         } else {
             setShowLimitBtn(true);
         }
-    }, [limit, champions.length]);
+    }, [limit, champions.length, filteredChampions]);
 
     useEffect(() => {
         if (nameFilter !== '') {
