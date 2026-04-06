@@ -45,13 +45,12 @@
     left: 0;
     height: 100vh;
     width: 50%;
-    max-width: 200px;
     background-color: var(--bg-color);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
-    padding: 15px;
+    gap: 35px;
+    padding: 35px 25px;
     z-index: 1001;
     box-shadow: 5px 0 5px rgba(0, 0, 0, 0.8);
 }
@@ -76,8 +75,8 @@
 }
 
 .header .menu div.menu-mobile .menu-mobile-options button .icon {
-    width: var(--title3-font-size-mobile);
-    height: var(--title3-font-size-mobile);
+    width: 1em;
+    height: 1em;
     color: var(--text-color);
 }
 
@@ -112,13 +111,14 @@
 }
 
 .header .menu div.menu-mobile .menu-mobile-options .social-media {
+    margin-top: -25px;
     opacity: 0;
     transform: translateX(-20px);
     transition: all 0.2s ease;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    gap: 20px;
     padding-left: 25px;
 }
 
@@ -162,6 +162,20 @@
     .header .menu div.menu-mobile button {
         width: var(--title1-font-size-tablet);
         height: var(--title1-font-size-tablet);
+    }
+
+    .header .menu div.menu-mobile .menu-mobile-options button {
+        font-size: var(--title2-font-size-tablet);
+        font-family: var(--title-font);
+    }
+
+    .header .menu div.menu-mobile .menu-mobile-options button.about-dev-bnt .about-dev  {
+        font-size: var(--title2-font-size-tablet);
+        font-family: var(--title-font);
+    }
+
+    .header .menu div.menu-mobile .menu-mobile-options .social-media {
+        gap: 25px
     }
 }
 
