@@ -13,6 +13,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export function Header() {
 
     const [isScrolled, setIsScrolled] = useState(false);
+    const [socialMediaView, setSocialMediaView] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -28,6 +29,10 @@ export function Header() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    const handleSocialMediaView = () => {
+        setSocialMediaView(!socialMediaView);
+    };
+
     return (
         <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
             <div className="menu">
@@ -41,11 +46,16 @@ export function Header() {
                             <FiHome className='icon'/>
                             Início
                         </button>
-                        <button>
-                            <FaCode className='icon'/>
-                            Sobre o dev
+                        <button 
+                        className='about-dev-bnt'
+                        onClick={handleSocialMediaView}>
+                            <div className="about-dev">
+                                <FaCode className='icon'/>
+                                Sobre o dev
+                            </div>
+                            <img src="./src/assets/icons/arrow.svg" className={`arrow ${socialMediaView ? "active" : ""}`} />
                         </button>
-                        <nav className="social-media">
+                        <nav className={`social-media ${socialMediaView ? "active" : ""}`}>
                             <a href="https://www.linkedin.com/in/brtorresdel/" target="_blank" rel="noopener noreferrer">
                                 <FaLinkedinIn className='icon'/>
                                 LinkedIn
