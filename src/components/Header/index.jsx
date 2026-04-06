@@ -13,6 +13,8 @@ import { FaXTwitter } from "react-icons/fa6";
 export function Header() {
 
     const [isScrolled, setIsScrolled] = useState(false);
+    
+    const [menuMobileView, setMenuMobileView] = useState(false);
     const [socialMediaView, setSocialMediaView] = useState(false);
 
     useEffect(() => {
@@ -33,14 +35,21 @@ export function Header() {
         setSocialMediaView(!socialMediaView);
     };
 
+    const handleMenuMobileView = () => {
+        setMenuMobileView(!menuMobileView);
+    }
+
     return (
         <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
             <div className="menu">
                 <div className="menu-mobile">
-                    <button><TiThMenu className='icon'/></button>
-                    <nav className="menu-mobile-options">
+                    <button
+                    onClick={handleMenuMobileView}><TiThMenu className='icon'/></button>
+                    <nav className={`menu-mobile-options ${menuMobileView ? 'active' : ''}`}>
                         <button>
-                            <IoMdClose className='icon'/>
+                            <IoMdClose 
+                            className='icon close'
+                            onClick={handleMenuMobileView}/>
                         </button>
                         <button>
                             <FiHome className='icon'/>
