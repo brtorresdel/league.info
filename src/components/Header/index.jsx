@@ -86,7 +86,28 @@ export function Header() {
                 </div>
                 <nav className="menu-desktop">
                     <button>Início</button>
-                    <button>Sobre o dev</button>
+                    <div className="dev-links">
+                        <button
+                        onClick={handleSocialMediaView}>Sobre o dev</button>
+                        <nav className={`social-media ${socialMediaView ? "active" : ""}`}>
+                            <a href="https://www.linkedin.com/in/brtorresdel/" target="_blank" rel="noopener noreferrer">
+                                <FaLinkedinIn className='icon'/>
+                                LinkedIn
+                            </a>
+                            <a href="https://github.com/brtorresdel" target="_blank" rel="noopener noreferrer">
+                                <IoLogoGithub className='icon'/>
+                                GitHub
+                            </a>
+                            <a href="https://www.instagram.com/brtorresrod/">
+                                <FaInstagram className='icon'/>
+                                Instagram
+                            </a>
+                            <a href="https://www.instagram.com/brtorresrod/">
+                                <FaXTwitter className='icon'/>
+                                (antigo Twitter)
+                            </a>
+                        </nav>
+                    </div>
                 </nav>
             </div>
             <div className="title">
