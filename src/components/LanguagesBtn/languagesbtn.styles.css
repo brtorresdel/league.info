@@ -51,8 +51,18 @@
     background-color: rgba(32, 48, 64, 0.95);
 }
 
-
-
 .available-languages li img {
     width: 1.5em;
+}
+
+@media screen and (min-width: 748px) {
+    .languages-btn .flag-icon {
+        width: 3.5em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .languages-btn .flag-icon {
+        width: 4.5em;
+    }
 }
