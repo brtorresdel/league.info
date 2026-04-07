@@ -9,7 +9,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import "./headermenu.styles.css";
 
-export default function HeaderMenu() {
+export function HeaderMenu() {
 
     const SOCIAL_MEDIA = [
         {

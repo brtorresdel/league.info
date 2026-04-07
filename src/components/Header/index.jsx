@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './header.styles.css';
-import {HeaderMenu} from '../HeaderMenu';
+import { HeaderMenu } from '../HeaderMenu';
+import { LanguagesBtn } from '../LanguagesBtn';
 
 
 export function Header() {
@@ -29,8 +30,9 @@ export function Header() {
             <div className="title">
                 <h1>leagueinfo.gg</h1>
             </div>
+
             <div className="languages">
-                <button>EN</button>
+                <LanguagesBtn />
             </div>
         </header>
     )
