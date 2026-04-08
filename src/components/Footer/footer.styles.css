@@ -1,0 +1,126 @@
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 10px 35px;
+    background-color: #222222;
+    margin-top: 20px;
+}
+
+.policy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.policy h1 {
+    font-size: var(--title1-font-size-mobile);
+    font-family: "Protest Revolution", sans-serif;
+    color: #5c5c5c;
+    flex-shrink: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.policy h1:hover {
+    color: var(--text-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);
+}
+
+.dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.dev .social-media-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.dev .social-media-icons a {
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.dev .social-media-icons .icon {
+    width: 100%;
+    height: 100%;
+}
+
+.quebra {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-div {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: none;
+        padding: 2.5em;
+    }
+
+    .policy {
+        width: 50%;
+        align-items: flex-start;
+        text-align: start;
+        line-height: 1.5em;
+        gap: 15px;
+    }
+
+    .policy h1 {
+        font-size: calc(var(--title1-font-size-tablet) - 10px);
+    }
+
+    .dev {
+        width: 50%;
+        align-items: flex-end;
+        text-align: end;
+    }
+
+    .quebra {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-div {
+        padding: 4em;
+    }
+
+    .dev .social-media-icons a {
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        color: #5c5c5c;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .dev .social-media-icons a:hover {
+        color: var(--text-color);
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .dev .social-media-icons a {
+        width: 60px;
+        height: 60px;
+        text-decoration: none;
+        color: #5c5c5c;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+
+
+
+
