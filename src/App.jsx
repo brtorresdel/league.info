@@ -12,7 +12,8 @@ function App() {
   useEffect(() =>  {
 
     const getChampionInfo = async (champName) => {
-      const championInfo = await LoLService.getChampion(champName, "pt_BR");
+      const championInfo = await LoLService.getChampion(champName, "en_US");
+
       console.log(championInfo);
 
       setChampion(championInfo);
