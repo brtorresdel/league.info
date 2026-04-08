@@ -4,6 +4,7 @@
             "name": "Fiddlesticks",
             "id": "9",
             "title": "o Terror Ancestral",
+            "tile": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_tile.jpg",
             "skins": [
                 {
                     "name": "default",
@@ -120,6 +121,7 @@
             "name": "Akshan",
             "id": "166",
             "title": "o Sentinela Rebelde",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Akshan_0.jpg",
             "skins": [
                 {
                     "name": "default",
@@ -193,6 +195,7 @@
             "name": "Fiddlesticks",
             "id": "9",
             "title": "the Ancient Fear",
+            "tile": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_tile.jpg",
             "skins": [
                 {
                     "name": "default",
@@ -309,6 +312,7 @@
             "name": "Akshan",
             "id": "166",
             "title": "the Rogue Sentinel",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Akshan_0.jpg",
             "skins": [
                 {
                     "name": "default",

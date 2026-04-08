@@ -32,9 +32,22 @@ class LeagueofLegendsService{
         try {
             let response = await this.api.get(path);
 
-            response = response.data.data
+            response = response.data.data;
 
             for (let champ in response) {
+                console.log(champ.toLowerCase());
+                if (override[language] && override[language][champ.toLowerCase()]) {
+                    champs.push ({
+                        formatedName: override[language][champ.toLowerCase()].name.toLowerCase(),
+                        name: override[language][champ.toLowerCase()].name,
+                        id: override[language][champ.toLowerCase()].id,
+                        title: override[language][champ.toLowerCase()].title,
+                        tile: override[language][champ.toLowerCase()].tile,
+                        classes: override[language][champ.toLowerCase()].classes
+                    })
+                    continue;
+                };
+
                 champs.push({
                     formatedName: response[champ].id,
                     name: response[champ].name, 
