@@ -35,7 +35,7 @@ export function Footer() {
                 <p>leagueinfo.gg was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
             </div>
             <div className="dev">
-                <h3>Desenvolvido com ❤️ e muito ☕ por Bruno Torres </h3>
+                <h3>Desenvolvido com ❤️ e muito ☕ <br className="quebra"/> por Bruno Torres </h3>
                 <div className="social-media-icons">
                     {
                         SOCIAL_MEDIA.map((soc, index) => {

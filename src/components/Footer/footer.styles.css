@@ -5,6 +5,7 @@
     gap: 70px;
     padding: 10px 35px;
     background-color: #222222;
+    margin-top: 20px;
 }
 
 .policy {
@@ -54,6 +55,10 @@
     height: 100%;
 }
 
+.quebra {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .footer-div {
         flex-direction: row;
@@ -80,6 +85,10 @@
         align-items: flex-end;
         text-align: end;
     }
+
+    .quebra {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -103,8 +112,8 @@
 
 @media screen and (min-width: 1440px) {
     .dev .social-media-icons a {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
         text-decoration: none;
         color: #5c5c5c;
         transition: all 0.2s ease-in-out;
