@@ -7,27 +7,27 @@ import { Home } from './pages/Home';
 
 function App() {
 
-  // const [champion, setChampion] = useState(null);
+  const [champion, setChampion] = useState(null);
 
-  // useEffect(() =>  {
+  useEffect(() =>  {
 
-  //   const getChampionInfo = async (champName) => {
-  //     const championInfo = await LoLService.getChampion(champName, "en_US");
+    const getChampionInfo = async (champName) => {
+      const championInfo = await LoLService.getChampion(champName, "pt_BR");
 
-  //     console.log(championInfo);
+      console.log(championInfo);
 
-  //     setChampion(championInfo);
-  //   }
+      setChampion(championInfo);
+    }
 
-  //   getChampionInfo("Fiddlesticks");
+    getChampionInfo("Katarina");
 
-  // }, []);
+  }, []);
 
-  // if (!champion) return <Loading />
+  if (!champion) return <Loading />
 
   return (
     <>
-      <Home />
+      <ChampInfo champInfo={champion} />
     </>
   )
 }
