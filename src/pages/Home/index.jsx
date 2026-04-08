@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { HomeFilters } from "../../components/HomeFilters";
 import { HomeHero } from "../../components/HomeHero";
 import { HomeChampList } from "../../components/HomeChampList";
@@ -19,12 +19,12 @@ export function Home () {
     useEffect(() =>  {
 
         const getChampionsList = async () => {
-            // if (!localStorage.getItem('championsList')) {
-            //     localStorage.setItem('championsList', JSON.stringify(championsList));
-            // }
+            if (!localStorage.getItem('championsList')) {
+                const championsList = await LoLService.getChampionsList("pt_BR");
+                localStorage.setItem('championsList', JSON.stringify(championsList));
+            }
             
-            const championsList = await LoLService.getChampionsList("pt_BR");
-            // const championsList = JSON.parse(localStorage.getItem('championsList'));
+            const championsList = JSON.parse(localStorage.getItem('championsList'));
             setChampions(championsList);
         }
 
