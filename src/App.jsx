@@ -18,7 +18,7 @@ function App() {
       setChampion(championInfo);
     }
 
-    getChampionInfo("Akshan");
+    getChampionInfo("Fiddlesticks");
 
   }, []);
 

@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { stripHtml } from '../../utils/formatters.js';
+import override from '../../data/overrides.json';
 
 class LeagueofLegendsService{
     constructor() {
@@ -51,6 +52,8 @@ class LeagueofLegendsService{
     }
 
     async getChampion(champName, language) {
+        if (override[language] && override[language][champName.toLowerCase()]) return override[language][champName.toLowerCase()];
+
         const lastVersion = await this.#getVersion();
         champName = champName.replace(" ", "");
         champName = champName.charAt(0).toUpperCase() + champName.substring(1);
