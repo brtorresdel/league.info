@@ -54,6 +54,30 @@
     height: 100%;
 }
 
+@media screen and (min-width: 768px) {
+    .footer-div {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: none;
+        padding: 50px;
+    }
+
+    .policy {
+        width: 50%;
+        align-items: flex-start;
+        text-align: start;
+        line-height: 1.5em;
+        gap: 15px;
+    }
+
+    .dev {
+        width: 50%;
+        align-items: flex-end;
+        text-align: end;
+    }
+}
+
 
 
 
