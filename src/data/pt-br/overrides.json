@@ -6,68 +6,68 @@
         "skins": [
             {
                 "name": "default",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg",
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_0.jpg",
                 "id": 0
             },
             {
                 "name": "Fiddlesticks Espectral",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_1.jpg",
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_1.jpg",
                 "id": 1
             },
             {
                 "name": "Fiddlesticks Union Jack",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_2.jpg",
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_2.jpg",
                 "id": 2
             },
             {
                 "name": "Fiddlesticks Velho Oeste",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_3.jpg",
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_3.jpg",
                 "id": 3
             },
             {
                 "name": "Fiddlesticks Cabeça de Abóbora",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_4.jpg",
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_4.jpg",
                 "id": 4
             },
             {
                 "name": "Fiddlesticks Perna-de-Pau",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_5.jpg",
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_5.jpg",
                 "id": 5
             },
             {
                 "name": "Fiddlesticks Festa Surpresa",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_6.jpg",
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_6.jpg",
                 "id": 6
             },
             {
                 "name": "Fiddlesticks Doces Trevosos",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_7.jpg",
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_7.jpg",
                 "id": 7
             },
             {
                 "name": "Fiddlesticks Ascendente",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_8.jpg",
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_8.jpg",
                 "id": 8
             },
             {
                 "name": "Fiddlesticks Pretoriano",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_9.jpg",
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_9.jpg",
                 "id": 9
             },
             {
                 "name": "Fiddlesticks Nêmesis Estelar",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_27.jpg",
-                "id": 27
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_10.jpg",
+                "id": 10
             },
             {
                 "name": "Fiddlesticks Lua Sangrenta",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_37.jpg",
-                "id": 37
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_11.jpg",
+                "id": 11
             },
             {
                 "name": "Fiddlesticks Flora Fatalis",
-                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_46.jpg",
-                "id": 46
+                "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_12.jpg",
+                "id": 12
             }
         ],
         "lore": "Algo despertou em Runeterra. Algo ancestral. Algo terrível. O eterno terror conhecido como Fiddlesticks vaga pelos confins do mundo mortal, atraído por áreas dominadas por uma paranoia palpável, onde se alimenta de vítimas apavoradas. Com sua foice afiada, essa criatura malformada e desgastada colhe a própria essência do medo, deixando a mente dos desafortunados que sobrevivem ao seu ataque totalmente fragmentada. Muito cuidado com o som dos corvos, ou com os sussurros de uma figura que parece quase humana... pois Fiddlesticks está de volta.",
