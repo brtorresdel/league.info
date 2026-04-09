@@ -2,8 +2,8 @@
     width: 100%;
     height: 337px;
     background-image: var(--bg-hero);
-    background-size: 180%;
-    background-position: 35% 15%;
+    background-size: 200%;
+    background-position: 30% 0%;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -24,7 +24,7 @@
 }
 
 .home-hero-content {
-    width: 90%;
+    width: 95%;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -61,12 +61,11 @@
 }
 
 
-
 @media screen and (min-width: 768px) {
     .home-hero {
         height: 488px;
-        background-size: 115%;
-        background-position: 60% 25%;
+        background-size: 130%;
+        background-position: 30% 0%;
         align-items: flex-start !important;
     }
 
@@ -79,7 +78,7 @@
     } 
 
     .home-hero-content {
-        width: 60%;
+        width: 70%;
         align-items: flex-start;
         text-align: start;
         margin: 3% 5%;
@@ -103,16 +102,27 @@
 @media screen and (min-width: 1024px) {
     .home-hero {
         height: 637px;
+        background-size: 100%;
+        background-position: 30% 0%;
     }
 
     .home-hero::after {
         height: 637px;
+    }
+
+    .home-hero-content {
+        width: 70%;
+        align-items: flex-start;
+        text-align: start;
+        margin: 3% 7.5%;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .home-hero {
         height: 862px;
+        background-size: 100%;
+        background-position: 15% 0%;
     }
 
     .home-hero::after {

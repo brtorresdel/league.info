@@ -18,7 +18,7 @@ export function LanguagesBtn() {
             onClick={() => {
                 setLanguagesListView(!languagesListView);
             }}>
-                <img src="./src/assets/icons/arrow.svg" alt="" className='arrow' />
+                <img src="./src/assets/icons/arrow.svg" alt="" className={`arrow ${languagesListView ? "active" : ""}`} />
                 <img src={`./src/assets/img/${languagePref}.png`} alt="" className='flag-icon'/>
             </button>
             <ul className={`available-languages ${languagesListView ? 'active' : ''}`}>

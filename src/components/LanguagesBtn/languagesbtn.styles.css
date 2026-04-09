@@ -13,10 +13,21 @@
     width: 2em;
 }
 
+.languages-btn .arrow {
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in-out;
+}
+
+.languages-btn .arrow.active {
+    transform: rotate(180deg);
+}
+
 .available-languages {
     opacity: 0;
     pointer-events: none;
+    transform: translateY(-10px);
     position: absolute;
+    margin-top: 10px;
     right: 5%;
     padding: 0.7em;
     display: flex;
@@ -33,6 +44,7 @@
 .available-languages.active {
     opacity: 1;
     pointer-events: all;
+    transform: translateY(0);
 }
 
 .available-languages li {
