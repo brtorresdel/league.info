@@ -1,11 +1,12 @@
 import { Loading } from './../Loading/index';
 import './homechamplist.styles.css'
-import { ChampTitleandSub } from './../ChampTitleandSub/index';
-import { ClassIcon } from './../ClassIcon/index';
 import { HomeChampCard } from '../HomeChampCard';
 import { NotFoundElement } from '../NotFoundElement';
+import { useObserver } from '../Hooks/useObserver';
 
 export function HomeChampList ({championsList, limit}) {
+    const [ref, visible] = useObserver({threshold: 0.2});
+
     if (!championsList) {
         return <Loading />;
     }
@@ -15,7 +16,9 @@ export function HomeChampList ({championsList, limit}) {
     }
 
     return (
-        <div className="home-champions-list">
+        <div 
+        ref={ref}
+        className={`home-champions-list ${visible ? "visible" : ""}`}>
             {championsList.slice(0, limit).map((champion) => (
                 <HomeChampCard champion={champion} />
             ))}

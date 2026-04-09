@@ -9,6 +9,15 @@
     grid-auto-rows: 120px;
     z-index: 1;
     min-height: 440px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    transition-delay: 2s;
+}
+
+.home-champions-list.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 @media screen and (min-width: 768px) {
