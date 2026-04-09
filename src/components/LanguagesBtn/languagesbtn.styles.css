@@ -13,6 +13,15 @@
     width: 2em;
 }
 
+.languages-btn .arrow {
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in-out;
+}
+
+.languages-btn .arrow.active {
+    transform: rotate(180deg);
+}
+
 .available-languages {
     opacity: 0;
     pointer-events: none;
