@@ -188,6 +188,67 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_R1.mp4"
                 }
             ]
+        },
+        "ambessa": {
+            "name": "Ambessa",
+            "id": "799",
+            "title": "Matriarca da Guerra",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ambessa_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Ambessa Escolhida do Lobo",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ambessa_1.jpg",
+                    "id": 1
+                }
+            ],
+            "lore": "Todos que conhecem o nome Medarda respeitam e temem a líder da família, Ambessa. Como general noxiana, ela incorpora uma combinação mortal de força implacável e determinação destemida em batalha. Seu papel como matriarca não é diferente, exigindo grande astúcia para fortalecer os Medardas sem deixar espaço para fracasso ou compaixão. Adotando os meios implacáveis do lobo, Ambessa fará qualquer coisa para proteger o legado de sua família, mesmo que isso custe o amor de seus próprios filhos.",
+            "allytips": ["Ela pode isolar e eliminar campeões em lutas de grupo com sua ultimate (R). Eliminar um carregador ou alguém imediatamente pode garantir a vitória da sua equipe na luta", "Ambessa tem um enorme potencial para investidas decisivas e pode ganhar vantagem rapidamente conseguindo algumas eliminações no início do jogo. Ela consegue carregar partidas sozinha, o que é importante para a fila solo", "Diferente de outros campeões no LoL ela não é básica! Isso significa que você qu pode jogar com ela várias vezes sem enjoar"],
+            "enemytips": ["Ela pode ser bem complicada de jogar. Se você deseja masterizá-la, você vai precisar jogar diversas partidas com ela até se acostumar e jogar de forma efetiva. Pode ser mais fácil escolher um campeão que não tenha uma mecânica tão desafiadora", "Quando você utilizar sua ultimate (R) e avançar, você se torna bastante vulnerável. É importante que você avance somente quando seu time puder acompanhar, ou então será o todo o time inimigo contra você", "Se você estiver muito atrás com a Ambessa, pode ser bem difícil voltar ao jogo. Você precisará ajustar sua itemização e optar por itens de tanque para se tornar mais útil, se estiver muito atrás no jogo"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Passo do Cão-dragão",
+                    "description": "Utilizar um comando de ataque ou de movimento enquanto conjura uma habilidade fará com que Ambessa avance a uma curta distância assim que a habilidade for conjurada, recebendo alcance, dano e Velocidade de Ataque adicionais em seu próximo ataque e recuperando energia.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Icon_Ambessa_Passive.Domina.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Golpe Ardiloso / Pancada Cortante",
+                    "description": "Ambessa golpeia com seus cães-dragão em um semicírculo à frente, causando dano adicional aos inimigos atingidos pelas lâminas. Atingir um inimigo transformará a próxima conjuração desta Habilidade por um curto período, fazendo com que ela golpeie em linha reta com seus cães-dragão, causando dano adicional ao primeiro inimigo atingido.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AmbessaQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Repúdio",
+                    "description": "Ambessa recebe Escudo, canaliza por um curto período e golpeia o chão, causando dano aos inimigos próximos. Caso bloqueie qualquer dano de unidades que não sejam tropas enquanto canaliza, a Habilidade causará dano aumentado.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AmbessaW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Lacerar",
+                    "description": "Ambessa chicoteia seus cães-dragão ao redor de si, causando dano e Lentidão a inimigos próximos. Iniciar Passo do Cão-dragão com esta Habilidade faz com que ela golpeie uma segunda vez no fim do avanço.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AmbessaE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Execução Pública",
+                    "description": "Ambessa avança até o Campeão inimigo mais distante em uma linha reta e o suprime ao chegar. Então, ela arremessa o inimigo no chão, causando dano e deixando-o Atordoado.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AmbessaR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -377,6 +438,67 @@
                     "description": "Akshan locks onto an enemy champion and starts storing bullets. When released, he fires all stored bullets, dealing damage based on missing health to the first champion, minion, or structure hit.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AkshanR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_R1.mp4"
+                }
+            ]
+        },
+        "ambessa": {
+            "name": "Ambessa",
+            "id": "799",
+            "title": "Matriarch of War",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ambessa_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Chosen of the Wolf Ambessa",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ambessa_1.jpg",
+                    "id": 1
+                }
+            ],
+            "lore": "All who know the name Medarda respect and fear the family's leader, Ambessa. As a Noxian general, she embodies a deadly combination of ruthless strength and fearless resolve in battle. Her role as matriarch is no different, requiring great cunning to empower the Medardas while leaving no room for failure or compassion. Embracing the merciless ways of the Wolf, Ambessa will do whatever it takes to protect her family's legacy, even at the cost of her own children's love.",
+            "allytips": ["She can isolate and take down champions in team fights with her ultimate (R). Taking down a carry or somebody straight away can win your team the team fight", "Ambessa has a ton of all-in potential and can snowball by getting a few early kills. She can solo carry games which is important for Solo Queue", "Unlike some champions in LoL, she isn’t basic! This means you can play her over and over and not get bored!"],
+            "enemytips": ["She can be really difficult to play. If you want to master her, you’re going to put in a lot of games to pick her up and play her effectively. It might be easier to pick a champion who isn’t too mechanically challenging", "When you press R and go in, you’re going to be really vulnerable. It is important that you only go in when your team can follow up, or else you’ll get 5 people on you alone", "If you’re behind on Ambessa, it can be really difficult to get back into the game. You will need to adjust your build path and opt for tanky items to make yourself useful if you’re considerably behind"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Drakehound's Step",
+                    "description": "Entering an attack or movement command while casting an ability will cause Ambessa to dash a short distance once the ability is cast, granting her next attack bonus range, damage, and attack speed, and refunding energy.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Icon_Ambessa_Passive.Domina.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Cunning Sweep / Sundering Slam",
+                    "description": "Ambessa sweeps her twin drakehounds in a semicircle in front of her, dealing bonus damage to enemies hit by the blades. Striking an enemy will transform the next cast of this ability for a short period of time, causing her to slam her twin drakehounds down in a line in front of her, dealing bonus damage to the first enemy hit.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AmbessaQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Repudiation",
+                    "description": "Ambessa gains a shield, briefly braces herself, and then slams the ground to damage nearby enemies. If she blocked any non-minion damage while bracing herself, this ability will deal increased damage.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AmbessaW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Lacerate",
+                    "description": "Ambessa whips her twin drakehounds around herself, damaging and slowing nearby enemies. Initiating Drakehound's Step from this ability causes her to strike a second time at the end of its dash.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AmbessaE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Public Execution",
+                    "description": "Ambessa blinks to the farthest enemy champion in a line of her choosing and suppresses them upon her arrival. She then slams the enemy into the ground where they take damage and are stunned.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AmbessaR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_R1.mp4"
                 }
             ]
         }
