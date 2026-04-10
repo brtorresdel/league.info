@@ -480,6 +480,79 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_R1.mp4"
                 }
             ]
+        },
+        "briar": {
+            "name": "Briar",
+            "id": "233",
+            "title": "a Fome Contida",
+            "formatedName": "Briar",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Briar_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Briar Demônios Urbanos",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Briar Primordiana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Briar Academia de Batalha",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_20.jpg",
+                    "id": 20
+                }
+            ],
+            "lore": "A incontrolável sede de sangue de Briar, um experimento fracassado da Rosa Negra, exigia uma estrutura especial para controlar sua mente frenética. Após anos de confinamento, essa arma viva se libertou de todas as restrições e ficou livre no mundo. Agora ela não é controlada por ninguém, seguindo apenas sua própria fome de conhecimento e sangue... e aproveitando as oportunidades para se soltar, mesmo que controlar o frenesi não seja fácil.",
+            "allytips": ["Briar tem uma grande resistência em lutas, especialmente se o inimigo não tiver nenhuma forma de  redução de cura", "Briar tem boas habilidades de controle de grupo,  o que a torna uma boa caçadora", "Após o level 6, você pode utilizar sua ultimate (R) para ajudar aliados de longe"],
+            "enemytips": ["Briar precisa do seu time avançar em lutas de grupo, ou será o foco total do time inimigo", "A sua interação entre E e W é um pouco chata", "Se ela não lutar na selva ou próximo de paredes, ela perderá boa parte do seu controle de grupo"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Maldição Carmesim",
+                    "description": "Os Ataques e as Habilidades de Briar acumulam sangramento que cura Briar numa quantidade do dano causado. Constantemente faminta, ela ganha cura aumentada com base na Vida perdida, mas não tem Regeneração de Vida inata.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/BriarP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Vertigem",
+                    "description": "Briar salta até uma unidade e atinge inimigos com um golpe giratório, atordoando e fragmentando a Armadura de todos que atingir.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BriarQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Frenesi Sanguinário/Ataque Faminto",
+                    "description": "Briar salta e quebra sua berlinda, entrando num Frenesi Sanguinário que faz com que ela persiga o inimigo mais próximo (priorizando Campeões). Enquanto estiver no Frenesi, ela ganha Velocidade de Ataque e Velocidade de Movimento aumentadas, e seus ataques causam dano em área perto do alvo.Briar pode reativar esta Habilidade enquanto estiver no Frenesi para dar uma MORDIDA no alvo no próximo ataque dela, causando dano adicional baseado na Vida perdida e cura com base no dano causado.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BriarW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Grito Arrepiante",
+                    "description": "Briar se concentra novamente, removendo Frenesi Sanguinário e canalizando sua energia em um grito poderoso que causa dano e Lentidão a inimigos. Ao carregar, ela recebe dano reduzido e se cura em uma parte de sua Vida máxima. Um grito totalmente carregado empurra inimigos, causando dano adicional e atordoando os que atingirem uma parede.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BriarE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Morte Certa",
+                    "description": "Briar lança o hemólito da berlinda dela, marcando o primeiro Campeão atingido como sua presa. Depois, ela avança diretamente, causando temor a inimigos próximos ao chegar no alvo e entrando num estado de hemomania total. Ela persegue a presa até a morte, recebendo os benefícios de Frenesi Sanguinário, além de Armadura, Resistência Mágica, Roubo de Vida e Velocidade de Movimento adicionais.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BriarR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -961,6 +1034,79 @@
                     "description": "Bel'Veth consumes Void coral remnants, transforming into her true form and increasing her max health, attack range, attack speed, and out-of-combat move speed. Consuming the Void coral remnants of a Void epic monster will grant her a longer ultimate duration, as well as the power to summon Void remora.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BelvethR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_R1.mp4"
+                }
+            ]
+        },
+        "briar": {
+            "name": "Briar",
+            "id": "233",
+            "title": "the Restrained Hunger",
+            "formatedName": "Briar",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Briar_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Street Demons Briar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Primordian Briar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Battle Academia Briar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Briar_20.jpg",
+                    "id": 20
+                }
+            ],
+            "lore": "A failed experiment by the Black Rose, Briar's uncontrollable bloodlust required a special pillory to focus her frenzied mind. After years of confinement, this living weapon broke free from her restraints and unleashed herself into the world. Now she's controlled by no one—following only her hunger for knowledge and blood—and relishes the opportunities to let loose, even if reining back the frenzy isn't easy.",
+            "allytips": ["Lots of sustain in fights, especially if the enemy doesn’t get healing reduction", "You have a lot of built-in CC which is great on a Jungler", "Post 6, you can use your ultimate (R) to gank your allies from afar"],
+            "enemytips": ["Needs her team to follow up in team fights or else she will get blown up", "The interaction between her E and W is a bit annoying", "If she doesn’t fight in the jungle or near walls, she is missing out on extra CC"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Crimson Curse",
+                    "description": "Briar's attacks and abilities apply a stacking bleed that heals her for a portion of the damage it deals. Perpetually hungry, she gains increased healing based on her missing Health, but lacks innate Health Regeneration.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/BriarP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Head Rush",
+                    "description": "Briar leaps to a unit and hits enemies with The Heel Wheel (of Pain), stunning them and breaking their Armor.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BriarQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Blood Frenzy / Snack Attack",
+                    "description": "Briar leaps forward and shatters her pillory, entering a Blood Frenzy that causes her to relentlessly pursue the nearest enemy (prioritizing champions). While frenzied, she gains increased Attack Speed and Move Speed, and her attacks deal damage in an area around her target.Briar can reactivate this ability while frenzied to take a CHOMP out of her target on her next attack, dealing additional damage based on their missing Health, and healing Briar based on the damage she deals.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BriarW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Chilling Scream",
+                    "description": "Briar refocuses her mind, removing Blood Frenzy and channeling energy into a powerful scream that damages and slows enemies. While charging, she takes reduced damage and heals for a portion of her max Health. A fully charged scream knocks foes back, dealing additional damage and stunning those who collide with a wall.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BriarE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Certain Death",
+                    "description": "Briar kicks her pillory's hemolith gemstone, marking the first champion it hits as her prey. She then beelines straight to them, fearing other surrounding enemies upon arriving at her target, and enters a state of complete hemomania. She will pursue her prey until death, gaining the benefits of Blood Frenzy as well as additional Armor, Magic Resistance, Life Steal, and Move Speed.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BriarR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_R1.mp4"
                 }
             ]
         }    
