@@ -553,6 +553,94 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_R1.mp4"
                 }
             ]
+        },
+        "lillia": {
+            "name": "Lillia",
+            "id": "876",
+            "title": "o Florir Receoso",
+            "formatedName": "Lillia",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Lillia_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Lillia Florescer Espiritual",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Lillia Emissária da Escuridão",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Lillia Pergaminhos Shan Hai",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Lillia Corte das Fadas",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_28.jpg",
+                    "id": 28
+                },
+                {
+                    "name": "Lillia Liga de Boliche",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_37.jpg",
+                    "id": 37
+                },
+                {
+                    "name": "Lillia Pétalas da Primavera",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_46.jpg",
+                    "id": 46
+                }
+            ],
+            "lore": "Extremamente tímida, Lillia, a faunesa feérica, percorre saltitante as florestas de Ionia. Sempre escondida a pouca distância dos humanos — cuja misteriosa natureza lhe causa fascínio e, ao mesmo tempo, receio — Lillia espera descobrir por que os sonhos deles não chegam mais à Árvore dos Sonhos. Agora, ela percorre Ionia com um cajado mágico nas mãos em busca dos sonhos não realizados das pessoas. Somente assim, a própria Lillia poderá florescer e ajudar os humanos a resolverem seus medos e encontrarem seu brilho interior. Iiip!",
+            "allytips": ["Lillia tem uma grande mobilidade graças a sua passiva. Isso a torna difícil de ser pega fora de posição. Isso também te permite desviar de habilidades e controles de grupo", "Diferente de vários campeões de dano mágico, Lillia pode iniciar lutas em grupo se ela conseguir atingir vários inimigos fora de posição com seu E. Avise seus aliados quando ativar sua ultimate (R), assim eles saberão quando avançar", "É possível que você consiga colocar o time inimigo inteiro para dormir com sua ultimate (R). Isso aumenta as chances do seu time de vencer o jogo. Tente usar seu ultimate (R) no máximo de campeões possível"],
+            "enemytips": ["O início do jogo da Lillia é um pouco fraco. Ela precisa atingir o level 6 o mais rápido possível para gankar lanes mais efetivamente", "Como Lillia geralmente compra itens AP, ela geralmente não se dá bem contra equipes com dano explosivo. Ela também tem dificuldades contra campeões de poke e desengage, o que pode dificultar suas ações em lutas de grupo", "Enquanto sua ultimate (R) é uma boa ferramenta de lutas em grupo, ela também demora um tempo pra fazer efeito. Seus aliados podem interromper o efeito se derem dano em um campeão afetado pela habilidade"],
+            "classes": [
+                "Fighter",
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Ramo Onírico",
+                    "description": "Atingir um Campeão ou monstro com uma habilidade causa dano adicional com base na Vida máxima do alvo ao longo do tempo.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Lillia_Icon_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Golpes Florescentes",
+                    "description": "Lillia ganha acúmulos de Velocidade de Movimento passivamente ao atingir inimigos com habilidades. Ela pode ativar esta habilidade para causar Dano Mágico aos inimigos próximos e Dano Verdadeiro adicional na porção externa do círculo.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LilliaQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Cuidado! Iiip!",
+                    "description": "Lillia causa dano em uma área próxima, com dano amplificado no centro.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LilliaW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Semente Espiral",
+                    "description": "Lillia lança uma semente que causa dano e reduz a velocidade dos inimigos atingidos. Caso não atinja nada, Semente Espiral continuará avançando até colidir com uma parede ou alvo.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LilliaE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Cadência de Ninar",
+                    "description": "Todos os inimigos com Pó dos Sonhos são afetados por Sonolência e adormecem em seguida. Esses inimigos sofrem dano adicional se forem acordados de forma abrupta por dano.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LilliaR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -1107,6 +1195,94 @@
                     "description": "Briar kicks her pillory's hemolith gemstone, marking the first champion it hits as her prey. She then beelines straight to them, fearing other surrounding enemies upon arriving at her target, and enters a state of complete hemomania. She will pursue her prey until death, gaining the benefits of Blood Frenzy as well as additional Armor, Magic Resistance, Life Steal, and Move Speed.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BriarR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0233/ability_0233_R1.mp4"
+                }
+            ]
+        },
+        "lillia": {
+            "name": "Lillia",
+            "id": "876",
+            "title": "the Bashful Bloom",
+            "formatedName": "Lillia",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Lillia_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Spirit Blossom Lillia",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Nightbringer Lillia",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Shan Hai Scrolls Lillia",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Faerie Court Lillia",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_28.jpg",
+                    "id": 28
+                },
+                {
+                    "name": "Bowling League Lillia",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_37.jpg",
+                    "id": 37
+                },
+                {
+                    "name": "Petals of Spring Lillia",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_46.jpg",
+                    "id": 46
+                }
+            ],
+            "lore": "Intensely shy, the fae fawn Lillia skittishly wanders Ionia's forests. Hiding just out of sight of mortals—whose mysterious natures have long captivated, but intimidated, her—Lillia hopes to discover why their dreams no longer reach the ancient Dreaming Tree. She now travels Ionia with a magical branch in hand, in an effort to find people's unrealized dreams. Only then can Lillia herself bloom and help others untangle their fears to find the sparkle within. Eep!",
+            "allytips": ["Lillia is really fast and mobile thanks to her Passive. This makes her hard to catch out of position. It will also allow you to dodge skill shots and CC", "Unlike a lot of AP champions, Lillia can initiate and start a team fight if she can catch multiple enemies out of position with her E. Ping once you activate your ultimate (R) so your team knows you want to go in", "It’s possible that you’re able to put the whole enemy team to sleep with your ultimate (R). This will increase the chances of your team winning the game. Try to apply your ultimate (R) to as many champions as possible"],
+            "enemytips": ["Lillia’s early game is rather weak. She needs to hit level 6 as fast as possible to make her ganks more effective", "As Lillia is usually built AP, she will struggle against teams that have high burst damage. She also struggles against poke and disengage, which can make team fighting difficult for her", "While her ultimate (R) is a great team fighting tool, it does take some time to come into effect. Your allies can also disrupt your damage if they deal damage to a sleepy target"],
+            "classes": [
+                "Fighter",
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Dream-Laden Bough",
+                    "description": "Hitting a champion or monster with a skill will deal additional max Health damage over time.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Lillia_Icon_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Blooming Blows",
+                    "description": "Passively, Lillia gains stacking Move Speed when hitting enemies with spells. She can activate this to deal magic damage to nearby enemies, dealing extra true damage on the edge.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LilliaQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Watch Out! Eep!",
+                    "description": "Lillia deals damage in a nearby area, dealing heavy damage in the center.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LilliaW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Swirlseed",
+                    "description": "Lillia hurls a seed that damages and slows those it lands on. If it doesn't hit anything, it will continue rolling until it hits a wall or target.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LilliaE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Lilting Lullaby",
+                    "description": "Lillia causes all enemies with Dream Dust on them to become Drowsy before falling asleep. Those enemies will take extra damage on being forcibly woken up.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LilliaR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_R1.mp4"
                 }
             ]
         }    
