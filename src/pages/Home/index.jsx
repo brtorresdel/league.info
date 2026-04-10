@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 import { useEffect, useState } from "react";
 import { HomeFilters } from "../../components/HomeFilters";
 import { HomeHero } from "../../components/HomeHero";
@@ -24,14 +25,14 @@ export function Home () {
             let localChampList = JSON.parse(localStorage.getItem("championsList"));
 
             if (!localChampList || localChampList.language !== language) {
-                const champList = await LoLService.getChampionsList("pt_BR");
+                const champList = await LoLService.getChampionsList(language);
                 localStorage.setItem('championsList', JSON.stringify({
                     championList: champList,
                     language: language
                 }));
             }
 
-            setChampions(localChampList.championList);
+            setChampions(JSON.parse(localStorage.getItem("championsList")).championList);
             setIsLoading(false);
         }
 
