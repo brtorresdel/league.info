@@ -7,7 +7,7 @@ import { useObserver } from '../Hooks/useObserver';
 export function HomeChampList ({championsList, limit, isLoading}) {
     const [ref, visible] = useObserver({threshold: 0.2});
 
-    if (isLoading || !championsList || championsList.length === 0) {
+    if (isLoading || !championsList && championsList.length === 0) {
         return <Loading />;
     }
     

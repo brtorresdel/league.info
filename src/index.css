@@ -71,6 +71,11 @@ section {
   height: auto;
 }
 
+.loading-div {
+  height: 80vh;
+  background-color: var(--bg-color);
+}
+
 @media screen and (min-width: 768px) {
   section {
     width: 542px;

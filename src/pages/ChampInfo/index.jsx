@@ -13,27 +13,41 @@ import { useTranslations } from "../../components/Hooks/useTranslations";
 export function ChampInfo() {
 
     const [ champion, setChampion ] = useState(null);
+    const [heroLoading, setHeroLoading] = useState(false);
     const { champId } = useParams();
     const { language } = useTranslations();
     
     useEffect(() =>  {
     
         const getChampionInfo = async (champId) => {
-            console.log(champId);
-
+            setHeroLoading(false);
             const championInfo = await LoLService.getChampion(champId, language);
-        
-            setChampion(championInfo);
+
+            const img = new Image();
+
+            img.src = championInfo.skins[0].img;
+            img.onload = () => {
+                setChampion(championInfo);
+                setHeroLoading(true);
+            }
         }
         
         getChampionInfo(champId);
     }, [champId, language]);
 
-    if (!champion) return <Loading />
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
+
+    if (!champion || !heroLoading) return <div className="loading-div">
+        <Loading />
+    </div>
+
+    const handleLoading = (loaded) => setHeroLoading(loaded);
 
     return (
         <>
-            <ChampHero champInfo={champion} />
+            <ChampHero champInfo={champion} handleLoading={handleLoading} />
             <ChampDescription description={champion.lore} />
             <ChampTips allyTips={champion.allytips} enemyTips={champion.enemytips} />
             <ChampHabilities habilities={champion.habilities} />
