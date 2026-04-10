@@ -193,6 +193,7 @@
             "name": "Ambessa",
             "id": "799",
             "title": "Matriarca da Guerra",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Ambessa_0.jpg",
             "skins": [
                 {
                     "name": "default",
@@ -247,6 +248,92 @@
                     "description": "Ambessa avança até o Campeão inimigo mais distante em uma linha reta e o suprime ao chegar. Então, ela arremessa o inimigo no chão, causando dano e deixando-o Atordoado.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AmbessaR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_R1.mp4"
+                }
+            ]
+        },
+        "aurelionsol": {
+            "name": "Aurelion Sol",
+            "id": "136",
+            "title": "o Forjador de Estrelas",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Ambessa_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Aurelion Sol Senhor das Cinzas",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Mech Aurelion Sol",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_2.jpg",
+                    "id": 2
+                },
+                {
+                    "name": "Aurelion Sol Dragão da Tormenta",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Aurelion Sol Tinta Sombria",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_21.jpg",
+                    "id": 21
+                },
+                {
+                    "name": "Aurelion Sol Protetor de Porcelana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_31.jpg",
+                    "id": 31
+                },
+                {
+                    "name": "Aurelion Sol de Porcelana Arquiteto Divino",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_38.jpg",
+                    "id": 38
+                }
+            ],
+            "lore": "Aurelion Sol costumava agraciar a vasta imensidão vazia dos cosmos com maravilhas celestiais concebidas por ele mesmo. Agora, ele é forçado a usar seu incrível poder a mando de um império espacial remoto que o enganou e o mantém sob servidão. Desejando voltar a forjar estrelas, Aurelion Sol arrastará as próprias estrelas dos céus se for preciso para recuperar sua liberdade.",
+            "allytips": ["Aurelion Sol tem bastante utilidade em suas habilidades. Elas oferecem bastante proteção e mobilidade. Ele tem boas ferramentas para parar ganks e se proteger de all-ins", "Aurelion Sol é um campeão muito forte para roamings graças ao seu W. Isso te permite impactar nas outras lantes com facilidade depois de puxar sua lane", "Graças ao seu Q, Aurelion Sol tem um bom poke e uma limpeza de minions melhor ainda. Isso permite puxar os minions e e trocar dano com o adversário mais facilmente do que boa parte dos outros campeões"],
+            "enemytips": ["Aurelion é um campeão que consome muita mana. Preste bastante atenção na quantidade atual de mana o tempo todo, ou então você será facilmente eliminado. Você estará vulnerável a ganks ou all-ins se estiver sem mana. Garanta que tenha mana o suficiente para seu W caso aconteça qualquer coisa", "Aurelion Sol é um campeão bem difícil de jogar. Você precisará de um bom tempo para masterizá-lo", "Como Aurelion Sol é um campeão com roaming forte, pode ser difícil para você fazer isso se a sua lane não estiver bem controlada. Também pode ser difícil fazer roaming contra campeões com ferramentas para puxar a lane rápido"],
+            "classes": [
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Criador Cósmico",
+                    "description": "As Habilidades de dano de Aurelion Sol reduzem inimigos a acúmulos de Poeira Estelar, melhorando permanentemente cada uma das Habilidades dele. ",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/AurelionSolP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Sopro de Luz",
+                    "description": "Aurelion Sol canaliza seu hálito de dragão por alguns segundos, causando dano ao primeiro inimigo atingido e espalhando dano reduzido a inimigos próximos. O hálito causará dano adicional para cada segundo que for canalizado diretamente em um inimigo, ficando mais forte à medida que coleta mais Poeira Estelar. Essa habilidade coleta Poeira Estelar se o alvo for um Campeão.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AurelionSolQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Voo Astral",
+                    "description": "Aurelion Sol voa sobre terrenos na direção-alvo. Enquanto estiver nesse estado, ele pode conjurar outras habilidades. Sopro de Luz não tem mais Tempo de Recarga ou duração máxima de canalização e causa dano aumentado durante o voo.O Tempo de Recarga restante de Voo Astral é reduzido sempre que um Campeão inimigo que sofreu dano recente de Aurelion Sol morre.Poeira Estelar aumenta o alcance máximo de Voo Astral.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AurelionSolW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Singularidade",
+                    "description": "Aurelion Sol invoca um buraco negro, causando dano aos inimigos e puxando-os lentamente para o centro. A Habilidade concede Poeira Estelar sempre que um inimigo morre dentro do buraco negro e a cada segundo que um Campeão inimigo passar preso dentro dele. O centro do buraco negro executa inimigos que estiverem com a Vida abaixo de uma determinada porcentagem da Vida máxima. Poeira Estelar aumenta a área e o limiar de execução de Singularidade.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AurelionSolE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Estrela Cadente/Os Céus Caem",
+                    "description": "Estrela Cadente: Aurelion Sol faz uma estrela cair na terra. O impacto causa Dano Mágico e atordoa inimigos, além de conceder Poeira Estelar a cada Campeão inimigo atingido. Coletar Poeira Estelar o suficiente faz a próxima Estrela Cadente de Aurelion Sol se tornar Os Céus Caem.Os Céus Caem: Aurelion Sol faz cair uma estrela gigante dos céus com zona de impacto e dano aumentados, além de arremessar ao ar os inimigos em vez de atordoá-los. Depois, uma onda de choque se espalha a partir do limite da zona de impacto, causando dano e Lentidão aos inimigos atingidos. Poeira Estelar aumenta a área de impacto tanto de Estrela Cadente quanto de Os Céus Caem.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AurelionSolR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_R1.mp4"
                 }
             ]
         }
@@ -445,6 +532,7 @@
             "name": "Ambessa",
             "id": "799",
             "title": "Matriarch of War",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Ambessa_0.jpg",
             "skins": [
                 {
                     "name": "default",
@@ -501,6 +589,92 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0799/ability_0799_R1.mp4"
                 }
             ]
-        }
+        },
+        "aurelionsol": {
+            "name": "Aurelion Sol",
+            "id": "136",
+            "title": "The Star Forger",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/AurelionSol_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Ashen Lord Aurelion Sol",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Mecha Aurelion Sol",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_2.jpg",
+                    "id": 2
+                },
+                {
+                    "name": "Storm Dragon Aurelion Sol",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Inkshadow Aurelion Sol",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_21.jpg",
+                    "id": 21
+                },
+                {
+                    "name": "Porcelain Protector Aurelion Sol",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_31.jpg",
+                    "id": 31
+                },
+                {
+                    "name": "Divine Architect Porcelain Aurelion Sol",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_38.jpg",
+                    "id": 38
+                }
+            ],
+            "lore": "Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his star-forging ways, Aurelion Sol will drag the very stars from the sky, if he must, in order to regain his freedom.",
+            "allytips": ["Aurelion Sol has lots of utility built into his kit. They offer him tons of protection and manoeuvrability. He has tools to stop ganks and protect himself from all-ins", "Aurelion Sol is a very strong roaming champion thanks to his W. This will allow you to impact your side lanes with ease after pushing your lane", "Thanks to his Q, Aurelion Sol has good poke and good wave clear. This will make pushing the wave and trading much easier in comparison to a lot of champions"],
+            "enemytips": ["Aurelion is a mana hungry champion. Keep a constant eye on your mana bar at all times otherwise you'll have little kill threat. He will also be vulnerable to ganks and all-ins if he is low. Ensure you have enough mana to use your W just in case something happens", "Aurelion Sol is a very difficult champion to play. You will need to put in a lot of time to master Aurelion Sol", "As Aurelion Sol is a roam heavy champion, it can be difficult for you to roam if your side lanes are not strong. It will also be hard to roam against champions with good pushing power"],
+            "classes": [
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Cosmic Creator",
+                    "description": "Aurelion Sol's damaging Abilities break down enemies into stacks of Stardust, which permanently improves each of his abilities. ",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/AurelionSolP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Breath of Light",
+                    "description": "Aurelion Sol channels his dragon breath for a few seconds, damaging the first enemy hit and splashing reduced damage onto nearby enemies. Each second the breath is channeled directly at an enemy will deal bonus damage, which is improved by the amount of Stardust that's been collected. This ability collects Stardust if the target is a champion.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AurelionSolQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Astral Flight",
+                    "description": "Aurelion Sol flies over terrain in a targeted direction. While in this state, he can cast other abilities. Breath of Light no longer has a cooldown or maximum channel duration and deals increased damage while flying.Astral Flight's remaining cooldown is reduced whenever an enemy champion dies after being recently damaged by Aurelion Sol.Stardust increases Astral Flight's maximum range.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AurelionSolW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Singularity",
+                    "description": "Aurelion Sol summons a black hole, damaging enemies and slowly pulling them toward its center. This ability grants Stardust each time an enemy dies within the black hole and for each second an enemy champion is caught inside it. The center of the black hole executes enemies who are below a certain percentage of their maximum health. Stardust increases Singularity's area as well as the execution threshold.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AurelionSolE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Falling Star / The Skies Descend",
+                    "description": "Falling Star: Aurelion Sol crashes a star into the earth. This impact deals magic damage and stuns enemies while also granting Stardust for each enemy champion it hits. Gathering enough Stardust transforms Aurelion Sol's next Falling Star into The Skies Descend.The Skies Descend: Aurelion Sol drags a giant star down from the heavens with an increased impact zone and increased damage, knocking up enemies rather than stunning them. A shockwave then spreads from the edge of the impact zone, which damages and slows the enemies it hits. Stardust increases the impact area of both Falling Star and The Skies Descend.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AurelionSolR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_R1.mp4"
+                }
+            ]
+        }    
     }    
 }

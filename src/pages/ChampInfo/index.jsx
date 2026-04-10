@@ -23,6 +23,8 @@ export function ChampInfo() {
             setHeroLoading(false);
             const championInfo = await LoLService.getChampion(champId, language);
 
+            console.log(championInfo);
+
             const img = new Image();
 
             img.src = championInfo.skins[0].img;
