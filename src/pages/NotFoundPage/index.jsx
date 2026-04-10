@@ -6,7 +6,7 @@ import "./notfoundpage.styles.css"
 
 export function NotFoundPage() {
     const { t } = useTranslations();
-    let [seconds, setSeconds] = useState(8000);
+    let [seconds, setSeconds] = useState(10);
 
     const navigate = useNavigate();
 
