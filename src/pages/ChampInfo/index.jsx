@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router";
+import { useParams } from "react-router";
 import { ChampHabilities } from "../../components/ChampHabilities";
 import { ChampHero } from "../../components/ChampHero";
 import { ChampSkins } from "../../components/ChampSkins";
@@ -29,7 +29,13 @@ export function ChampInfo() {
         getChampionInfo(champId);
     }, [champId, language]);
 
-    if (!champion) return <Loading />
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
+
+    if (!champion) return <div className="loading-div">
+        <Loading />
+    </div>
 
     return (
         <>
