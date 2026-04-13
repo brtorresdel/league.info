@@ -2040,6 +2040,69 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_R1.mp4"
                 }
             ]
+        },
+        "zaahen": {
+            "name": "Zaahen",
+            "id": "904",
+            "title": "O Indissociável",
+            "formatedName": "Zaahen",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Zaahen_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zaahen_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Zaahen Jornada Imortal",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zaahen_1.jpg",
+                    "id": 1
+                }
+            ],
+            "lore": "Um deus caído com poder divino e profano, Zaahen caça os outros Darkin em constante desafio à corrupção que ameaça consumi-lo. Outrora selado por livre vontade em sua glaive para evitar o jugo da loucura, ele agora se vê liberto, de coração nobre e propósito brutal. Zaahen trava uma luta eterna em seu âmago, mas, enquanto a suportar, ele há de superar todos os que buscam arruinar Runeterra.",
+            "allytips": ["Zaahen é um dos campeões com melhor começo de partida no jogo. Se certifique de usar isso ao seu favor para ganhar vantagem", "Ele tem um potencial bem grande de all-in com seu E, W e Q. Conseguindo manipular bem a onda de minions, você consegue muitas eliminações na rota", "Uma vez na frente, você pode constantemente cutucar, contestar e eliminar seu inimigo na rota. Não tenha medo de jogar de forma agressiva, especialmente se você tiver sua passiva bem acumulada"],
+            "enemytips": ["Você terá problemas para encurtar o espaõ contra campeões que tenham ferramentas anti-avanço ou ataque a distância", "Enquanto você é forte sem sua passiva e seus acúmulos, você consegue muito recurso adicional que pode ajudar nas lutas quando você está acumulado ao máximo. Um bom inimigo vai prestar atenção em quantos acúmulos você tem, e vai evitar lutar contra você quando você os tem", "Você nem sempre vai reviver com sua passiva!"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Cultivação da Guerra",
+                    "description": "Os ataques e as habilidades de Zaahen contra Campeões inimigos concedem a ele acúmulos de Determinação, que proporcionam Dano de Ataque adicional por acúmulo. Enquanto está com Determinação, Zaahen ganha mais Dano de Ataque e é capaz de ressuscitar.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/ZaahenP.Zaahen.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "A Glaive Darkin",
+                    "description": "Zaahen desfere dois cortes no próximo ataque, causando dano adicional e curando-se. Zaahen pode reconjurar a próxima habilidade para fazer o próximo ataque causar dano adicional e arremessar o alvo ao ar.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZaahenQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Temível Retorno",
+                    "description": "Zaahen dá uma estocada em uma direção, causando dano aos inimigos atingidos, e puxa-os para si.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZaahenW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Ímpeto Áureo",
+                    "description": "Zaahen avança para um local e desfere um corte ao redor de si.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZaahenE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Desfecho Fatídico",
+                    "description": "Zaahen se ergue e estoca para baixo, causando dano a inimigos e curando uma parte do dano causado.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZaahenR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -4081,6 +4144,69 @@
                     "description": "Yuumi channels five waves that damage enemies and heal allies. Yuumi can move, attach, and cast Zoomies! while channeling. While on her Best Friend, this spell also follows her mouse.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YuumiR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_R1.mp4"
+                }
+            ]
+        },
+        "zaahen": {
+            "name": "Zaahen",
+            "id": "904",
+            "title": "The Unsundered",
+            "formatedName": "Zaahen",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Zaahen_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zaahen_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Immortal Journey Zaahen",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zaahen_1.jpg",
+                    "id": 1
+                }
+            ],
+            "lore": "A fallen god wielding both divine and profane power, Zaahen hunts his fellow Darkin while defying the corruption that threatens to consume him. Once willingly sealed within his glaive to stave off madness, he now walks free, noble in heart and vicious in purpose. Zaahen fights an eternal war within—but so long as he endures, he will rise above all who seek to bring Runeterra to ruin.",
+            "allytips": ["You are one of the strongest early game champions in the game. Make sure you use this to your advantage to gain a major lead", "He has a lot of all-in potential with his E, W and Q. By using good wave manipulation, you can easily get a lot of kills in lane", "Once ahead, you can constantly harass, bully and kill your lane opponent. Don’t be afraid to play aggressively, especially if you have a lot of Passive stacks"],
+            "enemytips": ["You will struggle to close the gap between champions who have disengage tools and range", "While you’re strong without your Passive and your stacks, you get a lot of additional stats to help you in fights when you have max stacks. A good enemy will keep an eye on how many stacks you have and avoid fighting you when you have them", "You might not always get the revive from your Passive and come back to life"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Cultivation of War",
+                    "description": "Zaahen's attacks and abilities against enemy champions  grant him stacks of Determination, gaining bonus Attack Damage per stack. When filled with Determination, Zaahen gains increased Attack Damage and can revive.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/ZaahenP.Zaahen.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "The Darkin Glaive",
+                    "description": "Zaahen slashes twice on his next attack, dealing bonus damage and healing himself. Zaahen can recast this ability to have his next attack deal bonus damage and knock up his target.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZaahenQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Dreaded Return",
+                    "description": "Zaahen stabs in a direction, damaging enemies hit, then pulls them toward him.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZaahenW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Aureate Rush",
+                    "description": "Zaahen dashes to a location and slices around himself.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZaahenE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Grim Deliverance",
+                    "description": "Zaahen rises then stabs downward, damaging enemies and healing for a portion of the damage dealt.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZaahenR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_R1.mp4"
                 }
             ]
         }
