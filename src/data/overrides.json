@@ -1145,6 +1145,119 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_R1.mp4"
                 }
             ]
+        },
+        "senna": {
+            "name": "Senna",
+            "id": "235",
+            "title": "A Redentora",
+            "formatedName": "Samira",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Samira_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Senna True Damage",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Senna True Damage de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_9.jpg",
+                    "id": 9
+                },
+                {
+                    "name": "Senna Velho Oeste",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "PROJETO: Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_16.jpg",
+                    "id": 16
+                },
+                {
+                    "name": "Senna Eclipse Lunar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_26.jpg",
+                    "id": 26
+                },
+                {
+                    "name": "Senna Eclipse Lunar de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_27.jpg",
+                    "id": 27
+                },
+                {
+                    "name": "Senna Feiticeira",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_36.jpg",
+                    "id": 36
+                },
+                {
+                    "name": "Senna Guardiã Estelar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_46.jpg",
+                    "id": 46
+                },
+                {
+                    "name": "Senna Bênção do Inverno",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_56.jpg",
+                    "id": 56
+                },
+                {
+                    "name": "Senna Justiça Mascarada",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_63.jpg",
+                    "id": 63
+                },
+                {
+                    "name": "Senna Cão de Guerra",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_72.jpg",
+                    "id": 72
+                }
+            ],
+            "lore": "Amaldiçoada desde a infância a ser perseguida pelo fenômeno sobrenatural da Névoa Negra, Senna entrou para a ordem dos Sentinelas da Luz e lutou bravamente contra seu destino, mas isso resultou em sua morte, e a alma dela acabou aprisionada em uma lanterna pelas mãos do cruel espectro Thresh. No entanto, por se recusar a perder as esperanças, ela aproveitou seu tempo dentro da lanterna para aprender a usar a Névoa, ressurgindo com uma nova vida, sabendo que jamais voltaria a ser a mesma. Agora, armada com as forças da luz e da escuridão, Senna busca exterminar a Névoa Negra ao atrair o fenômeno para si a cada disparo de sua arma relicária, salvando as almas perdidas que ali residem.",
+            "allytips": ["Sena tem uma boa capacidade de poke e obtenção de recursos com sua passiva. Seu poke também permite curar os aliados com o Q, o que também a torna efetiva contra pokes", "Seu W te permite aplicar controle de grupo em vários inimigos com facilidade. Essa habilidade também bem forte quando ela está lutando em espaços apertados", "Seu E te permite esconder o time inteiro em áreas sem sentinelas e surpreender o time inimigo. Isso pode ser útil ao armar emboscadas"],
+            "enemytips": ["Senna bem baixa mobilidade e pode ser facilmente executada se receber um all-in. Isso pode deixá-la na desvantagem e obrigá-la a jogar na defensiva", "Seus inimigos podem ir com tudo pra cima caso você erre seu W, então ela precisa utilizar essa habilidade com cautela. Senna pode focar mais em pegar os pontos da passiva para carregar o jogo no futuro", "A invisibilidade do seu E pode ser facilmente contestada com sentinelas de controle bem posicionadas. Seu Q tem um alto custo de mana e pode fazer ela ficar sem recursos se usar de forma inapropriada"],
+            "classes": [
+                "Support",
+                "Marksman"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Absolvição",
+                    "description": "Quando unidades são abatidas perto de Senna, suas almas são periodicamente aprisionadas na Névoa Negra. Senna pode atacar essas almas para libertá-las, absorvendo a Névoa que as aprisiona na morte. A Névoa é o combustível do poder de seu Canhão Relicário, alimentando-o com Dano de Ataque, Alcance de Ataque e Chance de Acerto Crítico. Ataques do Canhão Relicário de Senna demoram mais para disparar, causam dano adicional e concedem a ela brevemente uma parte da Velocidade de Movimento do alvo.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Senna_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Escuridão Perfurante",
+                    "description": "Dos canos gêmeos de seu Canhão Relicário, Senna dispara um raio unificado de luz e sombra através do alvo, curando aliados e causando dano a inimigos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SennaQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Abraço Final",
+                    "description": "Senna dispara uma onda de Névoa Negra. Se atingir um inimigo, ela o aprisiona ferozmente, enraizando o alvo e tudo que estiver ao redor dele após um curto intervalo.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SennaW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Maldição da Névoa Negra",
+                    "description": "Senna reúne a Névoa que ela armazenou em sua arma e a transforma em uma tempestade ao seu redor, abraçando a escuridão e se tornando um espectro. Os aliados que entram na área são camuflados e também tomam a forma de espectros enquanto a Névoa os envolve. Espectros têm sua Velocidade de Movimento aumentada, são inalvejáveis e escondem a própria identidade.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SennaE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Sombra da Alvorada",
+                    "description": "Senna invoca as pedras relicárias dos Sentinelas caídos, dividindo seu canhão relicário em uma miríade de luz e sombra. Ela, então, dispara um raio global que concede escudo a aliados, enquanto causa dano aos inimigos atingidos no centro.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SennaR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -2291,6 +2404,119 @@
                     "description": "Samira unleashes a torrent of shots from her weapons, wildly shooting all enemies surrounding her.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SamiraR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_R1.mp4"
+                }
+            ]
+        },
+        "senna": {
+            "name": "Senna",
+            "id": "235",
+            "title": "the Redeemer",
+            "formatedName": "Senna",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Senna_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "True Damage Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Prestige True Damage Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_9.jpg",
+                    "id": 9
+                },
+                {
+                    "name": "High Noon Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "PROJECT: Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_16.jpg",
+                    "id": 16
+                },
+                {
+                    "name": "Lunar Eclipse Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_26.jpg",
+                    "id": 26
+                },
+                {
+                    "name": "Prestige Lunar Eclipse Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_27.jpg",
+                    "id": 27
+                },
+                {
+                    "name": "Bewitching Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_36.jpg",
+                    "id": 36
+                },
+                {
+                    "name": "Star Guardian Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_46.jpg",
+                    "id": 46
+                },
+                {
+                    "name": "Winterblessed Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_56.jpg",
+                    "id": 56
+                },
+                {
+                    "name": "Masked Justice Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_63.jpg",
+                    "id": 63
+                },
+                {
+                    "name": "Warhound Senna",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_72.jpg",
+                    "id": 72
+                }
+            ],
+            "lore": "Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order known as the Sentinels of Light, and fiercely fought back—only to be killed, her soul imprisoned in a lantern by the cruel specter Thresh. But refusing to lose hope, within the lantern Senna learned to use the Mist, and reemerged to new life, forever changed. Now wielding darkness along with light, Senna seeks to end the Black Mist by turning it against itself—with every blast of her relic weapon, redeeming the souls lost within.",
+            "allytips": ["Really effective long ranged poke and Passive procurement agency. Her poke also allows her to heal up with her Q, so she is really good against poke", "Her W can allow her to CC an entire group of enemies with utmost ease. This ability becomes very powerful when she is fighting in closed spaces", "Her E can allow her to sneak an entire team through non-warded area and surprise an enemy team. This can be beneficial while setting up death brushes"],
+            "enemytips": ["She is very immobile and can be killed easily if she is all-in’d. This can shut her down during the early game and force her to play defensively", "Her enemies can look to all-in her as soon as she misses her W, so she needs to use that ability quite carefully. She will be more focused on getting her Passive stacks in order to be able to carry later in the game", "The E invisibility can be easily countered with a properly placed Control Ward. Her Q costs a lot of mana as well and can make her run out of resources if she uses that ability in a carefree manner"],
+            "classes": [
+                "Support",
+                "Marksman"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Absolution",
+                    "description": "When units die near Senna, their souls are periodically trapped by the Black Mist. Senna can attack these souls to free them, absorbing the Mist that held them in death. Mist fuels her Relic Cannon's power with increased Attack Damage, Attack Range, and Critical Strike Chance. Attacks from Senna's Relic Cannon take longer to fire, deal bonus damage, and briefly grant her a portion of her target's Move Speed.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Senna_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Piercing Darkness",
+                    "description": "From the twin barrels of her Relic Cannon, Senna fires a unified beam of light and shadow through a target, healing allies and damaging enemies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SennaQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Last Embrace",
+                    "description": "Senna sends forth a wave of Black Mist. If it hits an enemy it latches onto them hungrily, rooting them and everything nearby after a brief delay.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SennaW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Curse of the Black Mist",
+                    "description": "Senna draws the Mist she has stored in her weapon into a storm around her, embracing darkness and becoming a wraith within. Allies who enter the area are camouflaged and also appear as wraiths as the Mist shrouds them. Wraiths gain increased Move Speed, are unselectable, and hide their identities.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SennaE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Dawning Shadow",
+                    "description": "Senna calls upon the relic stones of fallen Sentinels, splitting her relic cannon into a holy array of shadow and light. She then fires a global beam that shields allies from harm, while damaging enemies caught in the center.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SennaR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_R1.mp4"
                 }
             ]
         }    
