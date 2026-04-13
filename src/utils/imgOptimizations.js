@@ -9,8 +9,12 @@ export const getOptimizedImg = (url) => {
 export const getLocalImg = (relativePath) => {
     if (!relativePath) return '';
     
-    const baseUrl = import.meta.env.BASE_URL || '/';
-    const pathWithoutLeadingSlash = relativePath.replace(/^\//, '');
+    // Ensure path starts with /
+    const absolutePath = relativePath.startsWith('/') ? relativePath : `/${relativePath}`;
     
-    return `${baseUrl}${pathWithoutLeadingSlash}`;
+    const baseUrl = import.meta.env.BASE_URL || '/';
+    // Remove trailing slash from baseUrl if present
+    const cleanBaseUrl = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
+    
+    return `${cleanBaseUrl}${absolutePath}`;
 }

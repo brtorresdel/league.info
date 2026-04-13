@@ -14,62 +14,62 @@
                 },
                 {
                     "name": "Fiddlesticks Espectral",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_1.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_1.webp",
                     "id": 1
                 },
                 {
                     "name": "Fiddlesticks Union Jack",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_2.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_2.webp",
                     "id": 2
                 },
                 {
                     "name": "Fiddlesticks Velho Oeste",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_3.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_3.webp",
                     "id": 3
                 },
                 {
                     "name": "Fiddlesticks Cabeça de Abóbora",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_4.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_4.webp",
                     "id": 4
                 },
                 {
                     "name": "Fiddlesticks Perna-de-Pau",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_5.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_5.webp",
                     "id": 5
                 },
                 {
                     "name": "Fiddlesticks Festa Surpresa",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_6.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_6.webp",
                     "id": 6
                 },
                 {
                     "name": "Fiddlesticks Doces Trevosos",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_7.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_7.webp",
                     "id": 7
                 },
                 {
                     "name": "Fiddlesticks Ascendente",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_8.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_8.webp",
                     "id": 8
                 },
                 {
                     "name": "Fiddlesticks Pretoriano",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_9.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_9.webp",
                     "id": 9
                 },
                 {
                     "name": "Fiddlesticks Nêmesis Estelar",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_10.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_10.webp",
                     "id": 10
                 },
                 {
                     "name": "Fiddlesticks Lua Sangrenta",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_11.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_11.webp",
                     "id": 11
                 },
                 {
                     "name": "Fiddlesticks Flora Fatalis",
-                    "img": "img/fiddlesticks_skins/Fiddlesticks_12.webp",
+                    "img": "/img/fiddlesticks_skins/Fiddlesticks_12.webp",
                     "id": 12
                 }
             ],
