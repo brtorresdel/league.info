@@ -17,7 +17,7 @@ export function HabilityVideo ({src, screen}) {
         <div className={`hability-video ${screen}`}>
             {isLoading && <Loading />}
             <video 
-                src={src} 
+                src={src.replace("mp4", "webm")} 
                 autoPlay 
                 muted 
                 loop
