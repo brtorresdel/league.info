@@ -974,6 +974,89 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_R1.mp4"
                 }
             ]
+        },
+        "renata": {
+            "name": "Renata Glasc",
+            "id": "888",
+            "title": "a Baronesa da Química",
+            "formatedName": "Renata",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Renata_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Almirante Glasc",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Renata Glasc Noite Apavorante",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Renata Glasc La Ilusión",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Renata Glasc La Ilusión de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_21.jpg",
+                    "id": 21
+                },
+                {
+                    "name": "Renata Glasc Baile da Rosa Negra",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_31.jpg",
+                    "id": 31
+                }
+            ],
+            "lore": "Renata Glasc emergiu das cinzas de seu antigo lar com nada além da pesquisa alquímica de seus pais e seu próprio nome. Décadas se passaram, e ela se tornou a Baronesa da Química mais rica de Zaun, uma magnata que consolidou seu poder ligando os interesses dos outros aos seus próprios. Trabalhe com ela e receberá uma recompensa imensurável. Trabalhe contra ela e viva para se arrepender. Mas, uma hora ou outra, todos acabam ao lado dela.",
+            "allytips": ["Renata tem uma ultimate (R) muito forte, que te permite acertar todos os inimigos de uma vez", "Seu W pode ser muito forte se utilizado no aliado correto", "Renata pode dar escudo a múltiplos aliados utilizando seu E"],
+            "enemytips": ["Renata é bem frágil e fácil de eliminar", "Sua ultimate (R) se move bem devagar, e é fácil de desviar", "Renata não é muito forte no início do jogo, o que deixa sua rota aberta para ganks e pressão do time inimigo"],
+            "classes": [
+                "Support",
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Financiamento",
+                    "description": "Os Ataques de Renata causam dano adicional e marcam inimigos. Os aliados de Renata podem atacar inimigos marcados para causar dano adicional.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Renata_P.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Negócio Fechado",
+                    "description": "Renata envia um foguete que enraíza o primeiro inimigo atingido. Ela pode reconjurar a habilidade para arremessar a unidade em uma direção.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RenataQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Empréstimo",
+                    "description": "Renata fortalece um Campeão aliado para lutar, atrasando a morte dele e salvando-o se ele conseguir uma eliminação.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RenataW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Programa de Fidelidade",
+                    "description": "Renata envia um par de foguetes quimtec, concedendo Escudo aos aliados e causando dano e Lentidão aos inimigos atingidos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RenataE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Apropriação Agressiva",
+                    "description": "Renata envia uma onda de produtos químicos, fazendo com que inimigos atingidos entrem em estado de Berserk.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RenataR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -1949,6 +2032,89 @@
                     "description": "Rell explodes in a magnetic fury, violently Pulling nearby enemies toward herself. Then Rell constantly Drags nearby enemies toward herself for a short while, dealing magic damage over time.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RellR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_R1.mp4"
+                }
+            ]
+        },
+        "renata": {
+            "name": "Renata Glasc",
+            "id": "888",
+            "title": "the Chem-Baroness",
+            "formatedName": "Renata",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Renata_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Admiral Glasc",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Fright Night Renata Glasc",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "La Ilusión Renata Glasc",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Prestige La Ilusión Renata Glasc",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_21.jpg",
+                    "id": 21
+                },
+                {
+                    "name": "Masque of the Black Rose Renata Glasc",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_31.jpg",
+                    "id": 31
+                }
+            ],
+            "lore": "Renata Glasc rose from the ashes of her childhood home with nothing but her name and her parents' alchemical research. In the decades since, she has become Zaun's wealthiest chem-baron, a business magnate who built her power by tying everyone's interests to her own. Work with her, and be rewarded beyond measure. Work against her, and live to regret it. But everyone comes to her side, eventually.",
+            "allytips": ["Renata has a very strong ultimate (R) which can allow her to hit 5 enemy champions at once", "Her W can be very strong if it’s put on the right champion", "Can give multiple members of her team a shield with her E"],
+            "enemytips": ["She is rather squishy and easy to kill", "Her ultimate (R) is slow-moving and easy to dodge", "Not very strong in the early game, which leaves her open to ganks and pressure from the enemy laners"],
+            "classes": [
+                "Support",
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Leverage",
+                    "description": "Renata's Attacks deal bonus damage and mark enemies. Renata's allies can damage marked enemies to deal bonus damage.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Renata_P.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Handshake",
+                    "description": "Renata sends out a missile rooting the first enemy hit, and can recast the ability to throw the unit in a direction.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RenataQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Bailout",
+                    "description": "Renata buffs an allied champion to fight harder, delaying their death and potentially saving them if they get a takedown.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RenataW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Loyalty Program",
+                    "description": "Renata sends out a pair of chemtech missiles, shielding allies and damaging and slowing enemies hit.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RenataE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Hostile Takeover",
+                    "description": "Renata sends out a wave of chemicals, causing any enemies hit to go Berserk.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RenataR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_R1.mp4"
                 }
             ]
         }    
