@@ -1,10 +1,11 @@
 import { ChampClass } from '../ChampClass';
 import { ChampTitleandSub } from '../ChampTitleandSub';
 import './ChampHero.style.css'
+import { getOptimizedImg } from '../../utils/imgOptimizations';
 
 export function ChampHero ({champInfo}) {
 
-    const splashUrl = `url(${champInfo.skins[0].img})`;
+    const splashUrl = `url(${champInfo.name == "Fiddlesticks" ? champInfo.skins[0].img : getOptimizedImg(champInfo.skins[0].img)})`;
 
     return (
         <>

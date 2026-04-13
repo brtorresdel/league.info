@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ClassIcon } from "../ClassIcon";
 import './homechampcard.styles.css';
 import { useNavigate } from "react-router";
+import { getOptimizedImg } from "../../utils/imgOptimizations";
 
 export function HomeChampCard ({champion, index}) {
 
@@ -22,7 +23,7 @@ export function HomeChampCard ({champion, index}) {
                 <div className={`img-wrapper ${!imgLoad ? 'loading': ''}`}>
                     {!imgLoad && <div className="skeleton"></div>}
                     <img 
-                    src={champion.tile} 
+                    src={champion.name == 'Fiddlesticks' ? champion.tile : getOptimizedImg(champion.tile)} 
                     alt={champion.name}
                     onLoad={() => setImgLoad(true)}
                     loading="lazy"

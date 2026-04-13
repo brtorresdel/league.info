@@ -1,8 +1,9 @@
 import './homehero.styles.css';
 import { useTranslations } from './../Hooks/useTranslations';
+import { getOptimizedImg } from '../../utils/imgOptimizations';
 
 export function HomeHero() {
-    const splashUrl = "url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_8.jpg)";
+    const splashUrl = `url(${getOptimizedImg("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_8.jpg")})`;
     const { t } = useTranslations();
 
     const title = t("home.hero.title").split(', ');
