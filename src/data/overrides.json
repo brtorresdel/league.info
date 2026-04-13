@@ -1556,6 +1556,99 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_R1.mp4"
                 }
             ]
+        },
+        "viego": {
+            "name": "Viego",
+            "id": "234",
+            "title": "O Rei Destruído",
+            "formatedName": "Viego",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Viego_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Viego Fera Lunar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Viego Dissonância da Pentakill",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Viego EDG",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Rei Viego",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_21.jpg",
+                    "id": 21
+                },
+                {
+                    "name": "Viego Soul Fighter",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_30.jpg",
+                    "id": 30
+                },
+                {
+                    "name": "Viego Mundial 2024",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_37.jpg",
+                    "id": 37
+                },
+                {
+                    "name": "Viego Reinado Espectral",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_43.jpg",
+                    "id": 43
+                }
+            ],
+            "lore": "Outrora regente de um reino perdido, Viego morreu há mais de um milênio, quando uma tentativa de trazer sua esposa de volta à vida culminou em uma catástrofe mágica conhecida como ''a Ruína''. Transformado em um poderoso espectro morto-vivo, sempre torturado pela paixão obsessiva que sente por sua rainha morta há séculos, Viego agora é conhecido como o Rei Destruído. Hoje, ele controla os Tormentos enquanto assola Runeterra em busca de qualquer coisa que possa trazê-la de volta, destruindo tudo pelo caminho conforme a Névoa Negra verte de seu cruel coração partido.",
+            "allytips": ["Viego pode roubar a vida dos inimigos, o que permite escapar do perigo. Como ele se torna ivulnerável, consegue desviar de dano inimigo facilmente", "Viego é um campeão divertido e recompensador de se jogar, graças a sua passiva e sua ultimate (R). Espere se viciar no Viego rapidamente", "Viego requer um alto nível de habilidade. Isso significa que quanto mais investir em masterizá-lo, melhor ficará com ele. Continue jogando com ele e certamente subirá nos ranks"],
+            "enemytips": ["A passiva do Viego é tão forte quanto à composição do time inimigo. Caso se depare com um time que disponibilize pouco dano, transformar-se em um deles talvez não seja tão vantajoso", "Viego é um campeão difícil de masterizar: particularmente, jogar em torno da sua Passiva e sua ultimate (R) pode ser bem desafiador para iniciantes", "Viego tem pouca utilidade e seu W não pode ajudá-lo a atravessar paredes. Isso é uma desvantagem comparado com outros campeões com mobilidade no meta atual"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Dominação Monárquica",
+                    "description": "Inimigos derrotados por Viego se tornam Espectros. Ao atacá-los, Viego toma controle do corpo do inimigo morto temporariamente, curando-se em um percentual da Vida máxima do alvo e ganhando acesso a seus itens e habilidades básicas. Ele substitui a ultimate da vítima por uma conjuração gratuita de sua própria ultimate.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Viego_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Espada do Rei Destruído",
+                    "description": "A lâmina espectral de Viego causa uma porcentagem da Vida atual do alvo como dano adicional ao contato de forma passiva e atinge duas vezes os inimigos recentemente afetados por uma Habilidade, roubando Vida.Viego pode ativar essa Habilidade para golpear, perfurando inimigos à frente.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ViegoQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Posse Espectral",
+                    "description": "Viego carrega antes de avançar, lançando uma esfera de Névoa Negra concentrada que atordoa o primeiro inimigo atingido.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ViegoW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Domínio Atormentado",
+                    "description": "Viego ordena que a Névoa Negra assombre e cerque uma porção de terreno. Ele pode se esconder na Névoa como um Espectro, recebendo Camuflagem, Velocidade de Movimento e Velocidade de Ataque.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ViegoE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Destruidor de Corações",
+                    "description": "Viego teleporta-se para um local próximo e executa um Campeão inimigo ao chegar, atravessando seu coração e liberando uma onda de choque destrutiva que empurra os inimigos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ViegoR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -3113,6 +3206,99 @@
                     "description": "Fire a missile that marks an enemy champion.  Recast to dash to them and deal damage.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VexR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_R1.mp4"
+                }
+            ]
+        },
+        "viego": {
+            "name": "Viego",
+            "id": "234",
+            "title": "The Ruined King",
+            "formatedName": "Viego",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Viego_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Lunar Beast Viego",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Dissonance of Pentakill Viego",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "EDG Viego",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "King Viego",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_21.jpg",
+                    "id": 21
+                },
+                {
+                    "name": "Soul Fighter Viego",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_30.jpg",
+                    "id": 30
+                },
+                {
+                    "name": "Worlds 2024 Viego",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_37.jpg",
+                    "id": 37
+                },
+                {
+                    "name": "Revenant Reign Viego",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_43.jpg",
+                    "id": 43
+                }
+            ],
+            "lore": "Once ruler of a long-lost kingdom, Viego perished over a thousand years ago when his attempt to bring his wife back from the dead triggered the magical catastrophe known as the Ruination. Transformed into a powerful, unliving specter tortured by an obsessive longing for his centuries-dead queen, Viego now stands as the Ruined King, controlling the deadly Harrowings as he scours Runeterra for anything that might one day restore her, and destroying all in his path as the Black Mist pours endlessly from his cruel, broken heart.",
+            "allytips": ["Viego can steal the lives of his enemies which can allow him to escape danger. As he becomes untargetable, it can allow him to dodge incoming damage", "Viego is a fun and rewarding champion to play thanks to his Passive and his ultimate (R). Expect yourself to get hooked on him quite quickly", "Viego has a high skill ceiling. This means the more effort you put into him, the better you will be at him. Keep playing him and see yourself skyrocket in the ranks"],
+            "enemytips": ["Viego’s Passive is only as strong as the enemy team composition. If is picked into a team that lacks a lot of damage, transforming into them might be uneventful", "Viego is a difficult champion to master: in particular, playing around your Passive and your R can be quite challenging for beginners", "Viego has low utility and his W cannot help him get over walls. This is a drawback compared to other mobile champions in the current meta"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Sovereign's Domination",
+                    "description": "Enemies who fall before Viego become wraiths. By attacking a wraith, Viego temporarily seizes control of the dead enemy's body, healing for a percentage of his target's max health and gaining access to their basic abilities and items. He replaces their Ultimate with a free cast of his own.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Viego_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Blade of the Ruined King",
+                    "description": "Viego's spectral blade passively deals bonus percent current Health damage On-Hit and strikes twice vs. enemies he recently hit with an Ability, stealing Health.Viego can activate this Ability to thrust his zweihander forward, impaling enemies in front of him.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ViegoQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Spectral Maw",
+                    "description": "Viego charges up before dashing forward, releasing a ball of concentrated Black Mist that stuns the first enemy hit.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ViegoW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Harrowed Path",
+                    "description": "Viego commands the Black Mist to haunt and surround a piece of terrain. Viego can hide in the Mist as a wraith, gaining camouflage, Move Speed, and Attack Speed.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ViegoE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Heartbreaker",
+                    "description": "Viego teleports to a nearby location and executes an enemy champion on arrival, piercing their heart and causing a destructive shockwave around them that knocks away their allies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ViegoR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_R1.mp4"
                 }
             ]
         }
