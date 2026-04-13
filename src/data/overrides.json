@@ -1649,6 +1649,114 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_R1.mp4"
                 }
             ]
+        },
+        "volibear": {
+            "name": "Volibear",
+            "id": "106",
+            "title": "a Tempestade Implacável",
+            "formatedName": "Volibear",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Volibear_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Volibear Senhor do Trovão",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Volibear Nevasca do Ártico",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_2.jpg",
+                    "id": 2
+                },
+                {
+                    "name": "Volibear Armadura Rúnica",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_3.jpg",
+                    "id": 3
+                },
+                {
+                    "name": "Capitão Volibear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_4.jpg",
+                    "id": 4
+                },
+                {
+                    "name": "Volibear El Rayo",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_5.jpg",
+                    "id": 5
+                },
+                {
+                    "name": "O Urso dos Mil Flagelos",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_6.jpg",
+                    "id": 6
+                },
+                {
+                    "name": "Volibear Dragão da Dualidade",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_7.jpg",
+                    "id": 7
+                },
+                {
+                    "name": "Volibear Dragão da Dualidade de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_9.jpg",
+                    "id": 9
+                },
+                {
+                    "name": "Volibear Tinta Sombria",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Volibear Termas do Florescer Espiritual",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_29.jpg",
+                    "id": 29
+                }
+            ],
+            "lore": "Para aqueles que ainda o veneram, Volibear é a forma manifestada da tempestade. Destrutivo, selvagem e implacavelmente obstinado, ele já existia antes mesmo que os mortais andassem sobre a tundra de Freljord, protegendo as terras que ele e seus irmãos semideuses criaram. Com um ódio profundo pela civilização e pela fraqueza inerente a ela, Volibear luta para recuperar os velhos costumes de quando a terra era selvagem e o sangue jorrava livremente. Ele enfrenta todos aqueles que ousam entrar em seu caminho com dentes, garras e dominação estrondosa.",
+            "allytips": ["Volibear é um duelista muito forte, especialmente durante o início do jogo. Ele pode forçar qualquer campeão inimigo a, pelo menos, gastar o seu flash se souber pegá-los fora de posição", "A sua ultimate (R) te permite avançar debaixo da torre com facilidade. Pode ser utilizada para eliminar inimigos com pouca vida na rota, ou eliminar os inimigos na rota inferior enquanto estiver na selva", "Seu potencial de avanço durante o meio de jogo te permite pegar objetivos livremente durante o jogo. Isso pode ser convertido a uma vitória fácil se você trabalhar com seu time"],
+            "enemytips": ["Ele é facilmente contestado com corta-cura, que o previne de receber muita cura, e também diminui o potencial de dive e all-in", "Se manter separado durante uma luta de grupo vai prevení-lo de causar um estrago com sua ultimate (R), e mudar o rumo da luta. Seu poder de troca é baixo quando sua ultimate está em tempo de recarga", "O objetivo principal do Volibear é adquirir vantagem no começo do jogo com ganks constantes. Controlar bem a visão pode contestar isso, forçando ele a jogar mais focado nos minions ou na selva, o que vai diminuir drasticamente seu potencial no  jogo"],
+            "classes": [
+                "Fighter",
+                "Tank"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "A Tempestade Implacável",
+                    "description": "Os Ataques e habilidades de Volibear concedem Velocidade de Ataque e, às vezes, fazem com que seus Ataques causem Dano Mágico adicional a inimigos próximos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Volibear_Icon_P.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Esmagamento Trovejante",
+                    "description": "Volibear ganha velocidade ao correr na direção dos inimigos, Atordoando e causando dano ao primeiro que Atacar.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VolibearQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Fúria Selvagem",
+                    "description": "Volibear causa dano a um inimigo, marcando-o e aplicando efeitos ao contato.  Conjurar a habilidade novamente no mesmo alvo causa dano adicional e cura Volibear.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VolibearW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Divisor de Céus",
+                    "description": "Volibear invoca um relâmpago em um local, causando dano e Lentidão aos inimigos. Ele também ganhará um Escudo se estiver no raio da explosão.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VolibearE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Emissário da Tempestade",
+                    "description": "Volibear salta até um local-alvo, causando dano e Lentidão aos inimigos sob ele, além de receber Vida adicional.  Torres inimigas próximas ao local de pouso são temporariamente Desabilitadas.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VolibearR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -3299,6 +3407,114 @@
                     "description": "Viego teleports to a nearby location and executes an enemy champion on arrival, piercing their heart and causing a destructive shockwave around them that knocks away their allies.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ViegoR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0234/ability_0234_R1.mp4"
+                }
+            ]
+        },
+        "volibear": {
+            "name": "Volibear",
+            "id": "106",
+            "title": "the Relentless Storm",
+            "formatedName": "Volibear",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Volibear_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Thunder Lord Volibear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Northern Storm Volibear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_2.jpg",
+                    "id": 2
+                },
+                {
+                    "name": "Runeguard Volibear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_3.jpg",
+                    "id": 3
+                },
+                {
+                    "name": "Captain Volibear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_4.jpg",
+                    "id": 4
+                },
+                {
+                    "name": "El Rayo Volibear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_5.jpg",
+                    "id": 5
+                },
+                {
+                    "name": "The Thousand-Pierced Bear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_6.jpg",
+                    "id": 6
+                },
+                {
+                    "name": "Duality Dragon Volibear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_7.jpg",
+                    "id": 7
+                },
+                {
+                    "name": "Prestige Duality Dragon Volibear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_9.jpg",
+                    "id": 9
+                },
+                {
+                    "name": "Inkshadow Volibear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Spirit Blossom Springs Volibear",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_29.jpg",
+                    "id": 29
+                }
+            ],
+            "lore": "To those who still revere him, the Volibear is the storm made manifest. Destructive, wild, and stubbornly resolute, he existed before mortals walked the Freljord's tundra, and is fiercely protective of the lands that he and his demi-god kin created. Cultivating a deep hatred of civilization and the weakness it brought with it, he now fights to return to the old ways—when the land was untamed, and blood spilled freely—and eagerly battles all who oppose him, with tooth, claw, and thundering domination.",
+            "allytips": ["Extremely strong duelist, especially during the early game. He can force any enemy champion to at least use their Flash if he manages to catch them out of position", "Volibear’s ultimate (R) can allow him to set tower dives very easily. This can be used to kill low health solo laners in the top lane, or kill the enemy bot lane while Jungling", "His pick potential during the mid-game can allow him to take objectives quite freely during the game. This can be converted to an easy win if he can work with his team"],
+            "enemytips": ["He is countered really hard by Grievous Wounds as it prevents him from healing by a lot, thereby reducing his tower dive and all-in potential", "Being scattered in a team fight will prevent him from getting a massive ultimate (R) off, and changing the tide of a team fight. His trading power is lower when his R is on cooldown", "His main goal is to get a lead early on by ganking constantly. Proper vision set-up can counter this, forcing him to play a more farm-oriented Jungle style, which will ultimately hamper his potential"],
+            "classes": [
+                "Fighter",
+                "Tank"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "The Relentless Storm",
+                    "description": "Volibear's Attacks and abilities grant Attack Speed, and eventually cause his Attacks to deal bonus magic damage to nearby enemies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Volibear_Icon_P.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Thundering Smash",
+                    "description": "Volibear gains speed towards enemies, Stunning and damaging the first one he Attacks.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VolibearQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Frenzied Maul",
+                    "description": "Volibear damages an enemy, applying on-hit effects and marking them.  Casting this ability again on the same target deals bonus damage and Heals Volibear.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VolibearW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Sky Splitter",
+                    "description": "Volibear summons a lightning bolt at a location, dealing damage and Slowing enemies while granting Volibear a Shield if he's inside the blast radius.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VolibearE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Stormbringer",
+                    "description": "Volibear leaps to a target location, Slowing and damaging enemies beneath him while gaining bonus Health.  Enemy towers near his landing location become temporarily disabled.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VolibearR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_R1.mp4"
                 }
             ]
         }
