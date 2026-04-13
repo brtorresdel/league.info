@@ -1870,6 +1870,68 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_R1.mp4"
                 }
             ]
+        },
+        "yunara": {
+            "name": "Yunara",
+            "id": "804",
+            "title": "a Fé Inabalável",
+            "formatedName": "Yunara",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Yunara_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yunara_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Yunara Termas do Florescer Espiritual",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yunara_1.jpg",
+                    "id": 1
+                }
+            ],
+            "lore": "Com uma fé inabalável em Ionia, Yunara passou séculos isolada no Reino Espiritual treinando com Aion Er'na, uma lendária relíquia Kinkou. Apesar dos sacrifícios, o juramento de Yunara de varrer o desequilíbrio e os conflitos das terras ionianas permanece intacto, assim como sua fé. Mas o mundo que agora a aguarda — e a sombra de uma antiga ameaça que se ergue uma vez mais — testará cada partícula de sua determinação.",
+            "allytips": ["Yunara tem grande sinergia com grande parte dos suportes. Isso a faz uma ótima campeã de solo queue, já que pode ser jogada com qualquer suporte", "Ela também é efetiva em lutas de grupo, graças às suas habilidades. Seu Q particularmente pode ser bem forte quando os inimigos estão agrupados", "Um dos seus pontos fortes é que ela tem grandes utilidades no seu conjunto de habilidades. Ela tem lentidão no seu W, seu E lhe dá efeito fantasma, e quando está fortificada, pode ser utilizado para passar por paredes. Ela também dà dano misto (com seu Q), que ajuda contra campeões tanque que tenham muita armadura"],
+            "enemytips": ["Enquanto ela tem bastante utilidade, seu E só lhe permite atravessar paredes enquanto está fortificada (ultimate ativa). Não se esqueça disso enquanto estiver escapando de situações complicadas", "Você precisa ter um suporte que esteja na mesma página que você. Enquanto você tem boa sinergia, se o suporte não for bom, você vai sofrer bastante no começo do jogo", "Yunara é bastante frágil e não compra muitos itens defensivos. Isso a faz vulnerável à all-ins, e campeões de dano explosivo como magos ou assassinos (Syndra ou Zed, por exemplo)"],
+            "classes": [
+                "Marksman"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Voto às Primeiras Terras",
+                    "description": "Os Acertos Críticos de Yunara causam Dano Mágico adicional.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Yunara_Passive.Yunara.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Cultivação do Espírito",
+                    "description": "Yunara recebe Velocidade de Ataque, dano adicional ao contato, e os ataques dela atingem inimigos próximos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YunaraQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Arco do Julgamento | Arco da Ruína",
+                    "description": "Yunara lança uma conta de oração rodopiante que causa dano e Lentidão a inimigos. Se estiver no Estado de Transcendência, Yunara dispara um laser que causa dano e Lentidão a inimigos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YunaraW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Passos de Kanmei | Sombra Intocável",
+                    "description": "Yunara recebe Velocidade de Movimento e efeito Fantasma. Se estiver no Estado de Transcendência, Yunara avançará em uma direção.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YunaraE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Transcendência do Eu",
+                    "description": "Yunara entra em um Estado de Transcendência que aprimora suas habilidades básicas.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YunaraR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -3741,6 +3803,68 @@
                     "description": "Yone blinks behind the last champion in a line with a slash so powerful it pulls all enemies hit towards him.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YoneR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_R1.mp4"
+                }
+            ]
+        },
+        "yunara": {
+            "name": "Yunara",
+            "id": "804",
+            "title": "the Unbroken Faith",
+            "formatedName": "Yunara",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Yunara_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yunara_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Spirit Blossom Springs Yunara",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yunara_1.jpg",
+                    "id": 1
+                }
+            ],
+            "lore": "Unwavering in her devotion to Ionia, Yunara has spent centuries cloistered away in the spirit realm honing her skills with the Aion Er'na, a legendary Kinkou relic. Despite all she has sacrificed, Yunara's vow to rid the land of disharmony and strife remains unbroken, as does her faith. But the world that now awaits her—and the shadow of an ancient threat risen once more—will test every ounce of her resolve.",
+            "allytips": ["Yunara has great synergy with a ton of different Supports. This makes her a great solo-queue champion as she can be played with basically anyone", "She is also very effective in team fights, thanks to her kit. Her Q in particular can be extremely strong when enemies are grouped", "One of her strengths is that she has a wide range of utility in her kit. She has a slow on her W, her E makes her ghosted, and when empowered, can be used to get over walls. She also deals mixed damage (with her Q), which will help versus tanks who have stacked pure armor"],
+            "enemytips": ["While she does have a lot of utility, her E only allows her to get over walls when she has her Ultimate activated first. Keep this in mind when escaping sticky situations", "You need to have a Support who is on the same page as you. While you do have great synergy, if the person playing the Support isn’t good, you’re going to struggle in the early game", "Yunara is quite squishy and doesn’t buy much, if any defensive items. This will make her vulnerable to all-ins, and burst champions such as Mages or Assassins like Syndra or Zed"],
+            "classes": [
+                "Marksman"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Vow of the First Lands",
+                    "description": "Yunara's Critical Strikes deal bonus magic damage.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Yunara_Passive.Yunara.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Cultivation of Spirit",
+                    "description": "Yunara gains Attack Speed, bonus damage On-Hit, and her Attacks spread to nearby enemies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YunaraQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Arc of Judgment | Arc of Ruin",
+                    "description": "Yunara fires a spinning prayer bead that deals damage and slows enemies. While in her Transcendent State she instead fires off a laser that deals damage and slows enemies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YunaraW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Kanmei's Steps | Untouchable Shadow",
+                    "description": "Yunara gains Move Speed and becomes Ghosted. While in her Transcendent State she instead dashes in a direction.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YunaraE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Transcend One's Self",
+                    "description": "Yunara enters a Transcendent State that upgrades her basic Abilities.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YunaraR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_R1.mp4"
                 }
             ]
         }
