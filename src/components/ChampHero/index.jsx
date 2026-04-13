@@ -8,10 +8,15 @@ export function ChampHero ({champInfo}) {
 
     return (
         <>
-            <div className="hero" style={{'backgroundImage': splashUrl}}>
+            <div 
+            className="hero" style={{'backgroundImage': splashUrl}}
+            role='banner'>
                 <section className="hero-section">
                     <ChampTitleandSub name={champInfo.name} title={champInfo.title}/>
-                    <div className="champ-classes">
+                    <div 
+                    className="champ-classes"
+                    role='list'
+                    aria-label='Champ classes'>
                         {champInfo.classes.map((className, index) => {
                             return <ChampClass className={className} index={index} />
                         })}
