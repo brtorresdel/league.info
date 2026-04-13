@@ -8,6 +8,7 @@ import { ChampDescription } from './../../components/ChampDescription/index';
 import { LoLService } from "../../services/LeagueofLegendsService";
 import { Loading } from "../../components/Loading";
 import { useTranslations } from "../../components/Hooks/useTranslations";
+import { SEO } from "../../components/SEO";
 
 
 export function ChampInfo() {
@@ -47,6 +48,11 @@ export function ChampInfo() {
 
     return (
         <>
+            <SEO 
+            title={champion.name}
+            description={`Aprenda como jogar com ${champion.name}, ${champion.title}. Dicas de aliados e inimigos.`}
+            image={champion.skins[0].img}
+            type="article"/>
             <ChampHero champInfo={champion} handleLoading={handleLoading} />
             <ChampDescription description={champion.lore} />
             <ChampTips allyTips={champion.allytips} enemyTips={champion.enemytips} />

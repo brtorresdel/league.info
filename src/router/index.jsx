@@ -4,27 +4,26 @@ import { Home } from '../pages/Home';
 import { ChampInfo } from '../pages/ChampInfo';
 import { LanguageProvider } from '../components/Context/LanguageContext';
 import { NotFoundPage } from '../pages/NotFoundPage';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 export default function AppRouter() {
     return (
         <>
-            <BrowserRouter>
-                <LanguageProvider>
-                    <Routes>
-
-                        <Route path='/' element={<Layout />}>
-                            <Route path='' element={<Home />} />
-                            <Route path='home' element={<Home />} />
-                            <Route path='champion/:champId' element={<ChampInfo />} />
-                            <Route path='*' element={<NotFoundPage/>} />
-                        </Route>
-
-
-
-                    </Routes>
-                </LanguageProvider>
-            </BrowserRouter>
+            <HelmetProvider>
+                <BrowserRouter>
+                    <LanguageProvider>
+                        <Routes>
+                            <Route path='/' element={<Layout />}>
+                                <Route index element={<Home />} />
+                                <Route path='home' element={<Home />} />
+                                <Route path='champion/:champId' element={<ChampInfo />} />
+                                <Route path='*' element={<NotFoundPage/>} />
+                            </Route>
+                        </Routes>
+                    </LanguageProvider>
+                </BrowserRouter>
+            </HelmetProvider>
         </>
     )
 }

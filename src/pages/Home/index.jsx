@@ -6,6 +6,7 @@ import { HomeChampList } from "../../components/HomeChampList";
 import { LoLService } from "../../services/LeagueofLegendsService";
 import { HomeLimitController } from "../../components/HomeLimitController";
 import { useTranslations } from "../../components/Hooks/useTranslations";
+import { SEO } from "../../components/SEO";
 
 export function Home () {
     const [nameFilter, setNameFilter] = useState('');
@@ -100,6 +101,10 @@ export function Home () {
 
     return (
         <>
+            <SEO
+            title="Página inicial"
+            description="Explore todos os campeões do League of Legends, suas habilidades e skins."
+            image="..\assets\img\ata_emote.png" />
             <HomeHero />
             <HomeFilters 
             nameFilter={nameFilter} 
