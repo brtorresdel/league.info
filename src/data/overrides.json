@@ -1757,6 +1757,119 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_R1.mp4"
                 }
             ]
+        },
+        "yone": {
+            "name": "Yone",
+            "id": "777",
+            "title": "o Inesquecido",
+            "formatedName": "Yone",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Yone_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Yone Florescer Espiritual",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Yone Academia de Batalha",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Yone Emissário da Luz",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Yone Canção do Oceano",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_26.jpg",
+                    "id": 26
+                },
+                {
+                    "name": "Yone Tinta Sombria",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_35.jpg",
+                    "id": 35
+                },
+                {
+                    "name": "Yone HEARTSTEEL",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_45.jpg",
+                    "id": 45
+                },
+                {
+                    "name": "Yone HEARTSTEEL de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_46.jpg",
+                    "id": 46
+                },
+                {
+                    "name": "Yone Velho Oeste",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_55.jpg",
+                    "id": 55
+                },
+                {
+                    "name": "Yone Velho Oeste Pacificador",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_58.jpg",
+                    "id": 58
+                },
+                {
+                    "name": "Yone Justiça Mascarada",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_65.jpg",
+                    "id": 65
+                },
+                {
+                    "name": "Yone T1",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_74.jpg",
+                    "id": 74
+                }
+            ],
+            "lore": "Em vida, ele foi Yone; meio-irmão de Yasuo e um respeitado aluno da escola de espadachins de seu vilarejo. Mas, ao morrer pelas mãos do irmão, ele se viu perseguido por uma entidade maligna do reino espiritual e foi forçado a exterminá-la com sua própria espada. Agora, condenado a usar uma máscara demoníaca com o rosto da entidade, Yone busca incansavelmente essas criaturas para tentar entender o que ele mesmo se tornou.",
+            "allytips": ["Yone tem muita utilidade e dano nas suas habilidades, o que lhe permite jogar junto com seu time com frequência. Tudo o que ele precisa fazer é sair da fase de rotas sem dar muita vantagem ao seu inimigo", "Seu E lhe garante grande capacidade de jogadas incríveis, se usado adequadamente. Contra campeões conhecidos, essa habilidade pode ser mortal, e pode te ajudar a garantir uma eliminação fácil e segura", "Yone consegue flanquear o time inimigo com facilidade e consegue sair de situações complicadas com seu E. Isso pode causar pânico no time inimigo e pode abrir uma oportunidade para seu time avançar com facilidade"],
+            "enemytips": ["Yone não se dá muito bem contra campeões de longa distância, já que pode ser alvejado com facilidade à distância. Ele pode acabar executado se continuar na rota", "Ele pode se complicar utilizando o E, caso avançe para cima dos inimigos e não cronometre bem a duração do seu E. Controle de grupo é seu inimigo mortal, e ele pode ser pego facilmente pela sua fragilidade", "Sua ultimate (R) não tem muita distância, o que facilita ao inimigo de desviar à distância. Essa habilidade também requer que o Yone se aproxime muito do time inimigo, o que pode colocá-lo em uma situação vulnerável"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Estilo do Caçador",
+                    "description": "Yone causa Dano Mágico a cada segundo Ataque. Além disso, sua Chance de Acerto Crítico é aumentada.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/YonePassive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Aço Mortal",
+                    "description": "Golpeia à frente, causando dano a todos os inimigos em linha reta.Ao contato, ganha um acúmulo de Tempestade Crescente por alguns segundos. Com dois acúmulos, Aço Mortal faz Yone avançar com o vento, Arremessando ao ar os inimigos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YoneQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Fenda Espiritual",
+                    "description": "Ataca à frente, causando dano a todos os inimigos em uma área de cone. Concede um escudo a Yone. O valor do escudo aumenta com base no número de Campeões atingidos pelo golpe.O Tempo de Recarga e o tempo de conjuração de Fenda Espiritual escalam com Velocidade de Ataque.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YoneW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Desatar da Alma",
+                    "description": "O espírito de Yone deixa seu corpo para trás e recebe Velocidade de Movimento. Quando essa habilidade termina, o espírito de Yone volta ao corpo e ele repete parte do dano causado na forma espiritual.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YoneE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Destino Selado",
+                    "description": "Yone teleporta-se para trás do último Campeão em uma linha, desferindo um golpe tão poderoso que puxa na direção dele todos os inimigos atingidos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YoneR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -3515,6 +3628,119 @@
                     "description": "Volibear leaps to a target location, Slowing and damaging enemies beneath him while gaining bonus Health.  Enemy towers near his landing location become temporarily disabled.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VolibearR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0106/ability_0106_R1.mp4"
+                }
+            ]
+        },
+        "yone": {
+            "name": "Yone",
+            "id": "777",
+            "title": "the Unforgotten",
+            "formatedName": "Yone",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Yone_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Spirit Blossom Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Battle Academia Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Dawnbringer Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Ocean Song Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_26.jpg",
+                    "id": 26
+                },
+                {
+                    "name": "Inkshadow Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_35.jpg",
+                    "id": 35
+                },
+                {
+                    "name": "HEARTSTEEL Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_45.jpg",
+                    "id": 45
+                },
+                {
+                    "name": "Prestige HEARTSTEEL Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_46.jpg",
+                    "id": 46
+                },
+                {
+                    "name": "High Noon Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_55.jpg",
+                    "id": 55
+                },
+                {
+                    "name": "Peacemaker High Noon Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_58.jpg",
+                    "id": 58
+                },
+                {
+                    "name": "Masked Justice Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_65.jpg",
+                    "id": 65
+                },
+                {
+                    "name": "T1 Yone",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_74.jpg",
+                    "id": 74
+                }
+            ],
+            "lore": "In life, he was Yone—half-brother of Yasuo, and renowned student of his village's sword school. But upon his death at the hands of his brother, he found himself hunted by a malevolent entity of the spirit realm, and was forced to slay it with its own sword. Now, cursed to wear its demonic mask upon his face, Yone tirelessly hunts all such creatures in order to understand what he has become.",
+            "allytips": ["Has a lot of utility and damage in his kit which allows him to play around his team quite often. All he needs to do is get out of his laning phase without giving the enemy a huge lead", "His E grants him a lot of outplay potential if used properly. Against unsuspecting enemies, this skill can be really deadly, and can help him secure kills quite easily", "Can flank the enemy team with relative ease and can get out of sticky situations with his E. This can send the enemy team into full-on panic mode and can allow your team to follow up with ease"],
+            "enemytips": ["He doesn’t do well early on against ranged matchups as he can be poked quite easily from range. Regular poking will eventually get him killed if he stays in the lane", "He can outplay himself with his E if he goes in and mistimes the E duration. Crowd control is his mortal enemy, and he can be taken out quite easily due to his squishiness", "His ultimate (R) doesn’t have a lot of width, which makes it really easy for the enemies to dodge it from range. This will require Yone to get close to the enemy team, which can put him in a vulnerable position"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Way of the Hunter",
+                    "description": "Yone deals magic damage with every second Attack. In addition, his critical strike chance is increased.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/YonePassive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Mortal Steel",
+                    "description": "Thrusts forward, damaging all enemies in a line.On hit, grants a stack of Gathering Storm for a few seconds. At 2 stacks, Mortal Steel dashes Yone forward with a gust of wind knocking enemies Airborne.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YoneQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Spirit Cleave",
+                    "description": "Cleaves forward, damaging all enemies in a cone. Grants a shield to Yone, the value is increased by the number of champions hit by the swipe.Spirit Cleave's cooldown and cast time scale with attack speed.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YoneW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Soul Unbound",
+                    "description": "Yone's spirit leaves his body behind, gaining Move Speed. When this ability ends, Yone's spirit is forced back to his body and he repeats a portion of the damage he dealt as a spirit.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YoneE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Fate Sealed",
+                    "description": "Yone blinks behind the last champion in a line with a slash so powerful it pulls all enemies hit towards him.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YoneR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0777/ability_0777_R1.mp4"
                 }
             ]
         }
