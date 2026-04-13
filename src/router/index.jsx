@@ -11,12 +11,11 @@ export default function AppRouter() {
     return (
         <>
             <HelmetProvider>
-                <BrowserRouter>
+                <BrowserRouter basename='/leagueinfo.gg'>
                     <LanguageProvider>
                         <Routes>
                             <Route path='/' element={<Layout />}>
                                 <Route index element={<Home />} />
-                                <Route path='home' element={<Home />} />
                                 <Route path='champion/:champId' element={<ChampInfo />} />
                                 <Route path='*' element={<NotFoundPage/>} />
                             </Route>

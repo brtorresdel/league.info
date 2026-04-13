@@ -51,7 +51,7 @@ export function HeaderMenu() {
         setMenuMobileView(!menuMobileView);
     }
 
-    const handleHomeClick = () => navigate('/home');
+    const handleHomeClick = () => navigate('/');
 
 
     return (<div className="menu">
