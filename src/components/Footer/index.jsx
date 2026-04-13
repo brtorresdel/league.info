@@ -56,9 +56,11 @@ export function Footer() {
                             key={index} 
                             href={soc.href} 
                             target="_blank" 
-                            rel="noopener noreferrer">{soc.icon}
+                            rel="noopener noreferrer"
                             aria-label={soc.ariaLabel}
-                            alt={soc.iconAlt}</a>
+                            alt={soc.iconAlt}>
+                                {soc.icon}
+                            </a>
                         })
                     }
                 </div>
