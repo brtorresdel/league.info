@@ -10,7 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import "./headermenu.styles.css";
 import { useTranslations } from './../Hooks/useTranslations';
 import { useNavigate } from "react-router";
-import { arrowIcon } from '../../assets/icons/arrow.svg'
+import arrowIcon from '../../assets/icons/arrow.svg'
 
 export function HeaderMenu() {
 
