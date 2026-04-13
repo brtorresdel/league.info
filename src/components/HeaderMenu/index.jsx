@@ -10,6 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import "./headermenu.styles.css";
 import { useTranslations } from './../Hooks/useTranslations';
 import { useNavigate } from "react-router";
+import { arrowIcon } from '../../assets/icons/arrow.svg'
 
 export function HeaderMenu() {
 
@@ -76,7 +77,7 @@ export function HeaderMenu() {
                                 <FaCode className='icon'/>
                                 Sobre o dev
                             </div>
-                            <img src="./src/assets/icons/arrow.svg" className={`arrow ${socialMediaView ? "active" : ""}`} />
+                            <img src={arrowIcon} className={`arrow ${socialMediaView ? "active" : ""}`} />
                         </button>
                         <nav className={`social-media ${socialMediaView ? "active" : ""}`}>
                             {
