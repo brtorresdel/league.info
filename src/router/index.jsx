@@ -11,7 +11,7 @@ export default function AppRouter() {
     return (
         <>
             <HelmetProvider>
-                <BrowserRouter basename='/leagueinfo.gg'>
+                <BrowserRouter>
                     <LanguageProvider>
                         <Routes>
                             <Route path='/' element={<Layout />}>
