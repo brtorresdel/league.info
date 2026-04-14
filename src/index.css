@@ -1,28 +1,45 @@
 :root {
   --bg-color: #111111;
   --text-color: white;
-  --title-font: Bebas Neue, sans-serif;
-  --text-font: Montserrat, sans-serif;
+  /*
+    Tipografia (centralizada)
+    - 2 fontes (títulos e texto) para manter consistência
+    - Escala baseada no corpo (h1 ~300%, h2 ~200%)
+    - Line-height unitless para melhor responsividade
+  */
+  --font-title: "Bebas Neue", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  --font-body: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
 
-  --text-font-size-mobile: 13px;
-  --title1-font-size-mobile: 32px;
-  --title2-font-size-mobile: 24px;
-  --title3-font-size-mobile: 15px;
+  /* Backwards-compat (componentes já usam esses nomes) */
+  --title-font: var(--font-title);
+  --text-font: var(--font-body);
 
-  --text-font-size-tablet: 20px;
-  --title1-font-size-tablet: 64px;
-  --title2-font-size-tablet: 30px;
-  --title3-font-size-tablet: 20px;
+  --lh-body: 1.55;
+  --lh-title: 1.05;
+  --tracking: 0.08em;
 
-  --text-font-size-desktop: 20px;
-  --title1-font-size-desktop: 96px;
-  --title2-font-size-desktop: 40px;
-  --title3-font-size-desktop: 30px;
+  /* Tamanhos (px por compatibilidade com o layout atual) */
+  --text-font-size-mobile: 14px;
+  --title1-font-size-mobile: 42px;
+  --title2-font-size-mobile: 28px;
+  --title3-font-size-mobile: 18px;
 
-  --text-font-size-desktop-plus: 24px;
-  --title1-font-size-desktop-plus: 128px;
-  --title2-font-size-desktop-plus: 58px;
-  --title3-font-size-desktop-plus: 36px;
+  --text-font-size-tablet: 18px;
+  --title1-font-size-tablet: 60px;
+  --title2-font-size-tablet: 36px;
+  --title3-font-size-tablet: 22px;
+
+  --text-font-size-desktop: 18px;
+  --title1-font-size-desktop: 72px;
+  --title2-font-size-desktop: 44px;
+  --title3-font-size-desktop: 26px;
+
+  --text-font-size-desktop-plus: 20px;
+  --title1-font-size-desktop-plus: 84px;
+  --title2-font-size-desktop-plus: 52px;
+  --title3-font-size-desktop-plus: 30px;
 }
 
 * {
@@ -36,6 +53,10 @@ body {
   color: var(--text-color);
   font-size: var(--text-font-size-mobile);
   font-weight: 200;
+  line-height: var(--lh-body);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3 {
@@ -43,6 +64,7 @@ h1, h2, h3 {
   color: var(--text-color);
   font-weight: 400;
   font-size: 32px;
+  line-height: var(--lh-title);
 }
 
 h1 {

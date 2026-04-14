@@ -93,9 +93,8 @@
     }
 
     .home-hero-content h3 {
-        line-height: auto;
-        letter-spacing: 10%;
-        line-height: 1.3em;
+        letter-spacing: var(--tracking);
+        line-height: 1.3;
     }
 }
 

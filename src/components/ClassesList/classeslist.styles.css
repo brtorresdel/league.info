@@ -15,7 +15,7 @@
     background-color: #202020;
     color: var(--text-color);
     font-family: var(--text-font);
-    letter-spacing: 10%;
+    letter-spacing: var(--tracking);
     border: 1px solid transparent;
     transition: border-color 0.1s ease-in;
     display: flex;

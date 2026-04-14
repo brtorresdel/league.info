@@ -21,7 +21,7 @@
 .class-div-MobileandTablet p {
   font-size: 11px;
   font-weight: 400;
-  letter-spacing: 10%;
+  letter-spacing: var(--tracking);
 }
 
 .role-badge {
@@ -89,7 +89,7 @@
   .class-div-MobileandTablet p {
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 10%;
+    letter-spacing: var(--tracking);
   }
 }
 

@@ -13,7 +13,7 @@
     font-family: var(--text-font);
     font-size: var(--text-font-size-mobile);
     padding: 1.3em;
-    letter-spacing: 10%;
+    letter-spacing: var(--tracking);
     border-radius: 25px;
 }
 
